@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Szirtes út 26/B — Apartment for sale by the Citadella, Budapest</title>
+<meta name="description" content="Bright 82 m² apartment with a south-facing terrace in a gated garden complex on Gellért Hill, a 3-minute walk from the Citadella, Budapest.">
+<meta property="og:title" content="Szirtes út 26/B — Apartment for sale by the Citadella">
+<meta property="og:description" content="82 m², 2 bedrooms, south-facing terrace, gated garden with mature trees — 3 minutes from the Citadella.">
+<meta property="og:image" content="/img/og.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='14' fill='%23d99a2b'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script src="/config.js"></script>
+</head>
+<body>
+
+<header class="nav">
+  <a class="brand" href="#top">Szirtes út <span>26/B</span></a>
+  <nav class="links">
+    <a href="#location" data-i18n="nav.location"></a>
+    <a href="#gallery" data-i18n="nav.gallery"></a>
+    <a href="#details" data-i18n="nav.details"></a>
+    <a href="#sun" data-i18n="nav.sun"></a>
+    <a href="#map" data-i18n="nav.map"></a>
+    <a href="#contact" class="btn-small" data-i18n="nav.contact"></a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button data-lang="en">EN</button><button data-lang="hu">HU</button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+    <h1 data-i18n="hero.title"></h1>
+    <p class="lead" data-i18n="hero.lead"></p>
+    <ul class="facts">
+      <li><strong>82 m²</strong><span data-i18n="fact.area"></span></li>
+      <li><strong>2</strong><span data-i18n="fact.bedrooms"></span></li>
+      <li><strong>2 + 1</strong><span data-i18n="fact.baths"></span></li>
+      <li><strong data-i18n="fact.floorVal"></strong><span data-i18n="fact.floor"></span></li>
+      <li><strong data-i18n="fact.terraceVal"></strong><span data-i18n="fact.terrace"></span></li>
+    </ul>
+    <div class="price-row">
+      <div>
+        <div class="price" id="price"></div>
+        <div class="price-sub" id="pricePerM2"></div>
+      </div>
+      <a href="#contact" class="btn" data-i18n="hero.cta"></a>
+    </div>
+  </div>
+  <figure class="hero-img">
+    <img src="/img/hero-frontage.webp" srcset="/img/hero-frontage-sm.webp 700w, /img/hero-frontage.webp 1350w" sizes="(max-width: 900px) 100vw, 45vw" alt="" data-i18n-alt="alt.hero" fetchpriority="high">
+    <figcaption data-i18n="hero.caption"></figcaption>
+  </figure>
+</section>
+
+<!-- LOCATION HIGHLIGHT -->
+<section id="location" class="location">
+  <div class="loc-head">
+    <div class="big-stat"><span class="num">3</span><span class="unit" data-i18n="loc.minutes"></span></div>
+    <div>
+      <p class="eyebrow light" data-i18n="loc.eyebrow"></p>
+      <h2 data-i18n="loc.title"></h2>
+      <p data-i18n="loc.text"></p>
+    </div>
+  </div>
+  <figure class="aerial">
+    <img src="/img/aerial.webp" srcset="/img/aerial-sm.webp 900w, /img/aerial.webp 2400w" sizes="100vw" alt="" data-i18n-alt="alt.aerial" loading="lazy">
+    <figcaption data-i18n="loc.aerialCaption"></figcaption>
+  </figure>
+  <ul class="loc-points">
+    <li><h3 data-i18n="loc.p1t"></h3><p data-i18n="loc.p1"></p></li>
+    <li><h3 data-i18n="loc.p2t"></h3><p data-i18n="loc.p2"></p></li>
+    <li><h3 data-i18n="loc.p3t"></h3><p data-i18n="loc.p3"></p></li>
+    <li><h3 data-i18n="loc.p4t"></h3><p data-i18n="loc.p4"></p></li>
+  </ul>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <h2 data-i18n="gallery.title"></h2>
+  <div class="gallery" id="galleryGrid"></div>
+</section>
+
+<!-- DETAILS -->
+<section id="details" class="section details">
+  <div class="desc">
+    <h2 data-i18n="details.title"></h2>
+    <p data-i18n="desc.p1"></p>
+    <p data-i18n="desc.p2"></p>
+    <p data-i18n="desc.p3"></p>
+    <p data-i18n="desc.p4"></p>
+    <p data-i18n="desc.p5"></p>
+    <h3 data-i18n="desc.extrasTitle"></h3>
+    <ul class="ticks">
+      <li data-i18n="desc.x1"></li>
+      <li data-i18n="desc.x2"></li>
+      <li data-i18n="desc.x3"></li>
+    </ul>
+    <p data-i18n="desc.p6"></p>
+  </div>
+  <aside class="spec">
+    <h3 data-i18n="spec.title"></h3>
+    <dl>
+      <dt data-i18n="spec.price"></dt><dd id="specPrice"></dd>
+      <dt data-i18n="spec.area"></dt><dd>82 m²</dd>
+      <dt data-i18n="spec.rooms"></dt><dd data-i18n="spec.roomsVal"></dd>
+      <dt data-i18n="spec.baths"></dt><dd data-i18n="spec.bathsVal"></dd>
+      <dt data-i18n="spec.floor"></dt><dd data-i18n="spec.floorVal"></dd>
+      <dt data-i18n="spec.terrace"></dt><dd data-i18n="spec.terraceVal"></dd>
+      <dt data-i18n="spec.light"></dt><dd data-i18n="spec.lightVal"></dd>
+      <dt data-i18n="spec.floors"></dt><dd data-i18n="spec.floorsVal"></dd>
+      <dt data-i18n="spec.heating"></dt><dd data-i18n="spec.heatingVal"></dd>
+      <dt data-i18n="spec.water"></dt><dd data-i18n="spec.waterVal"></dd>
+      <dt data-i18n="spec.parking"></dt><dd data-i18n="spec.parkingVal"></dd>
+      <dt data-i18n="spec.storage"></dt><dd data-i18n="spec.storageVal"></dd>
+      <dt data-i18n="spec.address"></dt><dd>Szirtes út 26/B<br>1016 Budapest</dd>
+    </dl>
+    <a href="#contact" class="btn full" data-i18n="hero.cta"></a>
+  </aside>
+</section>
+
+<!-- SUN -->
+<section id="sun" class="sun">
+  <div class="sun-text">
+    <p class="eyebrow light" data-i18n="sun.eyebrow"></p>
+    <h2 data-i18n="sun.title"></h2>
+    <p data-i18n="sun.p1"></p>
+    <p data-i18n="sun.p2"></p>
+    <p data-i18n="sun.p3"></p>
+    <div class="sun-controls">
+      <div class="seg" id="seasonBtns">
+        <button data-day="winter" data-i18n="sun.winter"></button>
+        <button data-day="equinox" data-i18n="sun.equinox"></button>
+        <button data-day="summer" data-i18n="sun.summer"></button>
+        <button data-day="today" data-i18n="sun.today"></button>
+      </div>
+      <label class="slider"><span data-i18n="sun.time"></span> <output id="timeOut"></output>
+        <input type="range" id="timeSlider" min="0" max="1439" step="5">
+      </label>
+      <dl class="sun-readout">
+        <div><dt data-i18n="sun.sunrise"></dt><dd id="rSunrise"></dd></div>
+        <div><dt data-i18n="sun.sunset"></dt><dd id="rSunset"></dd></div>
+        <div><dt data-i18n="sun.daylight"></dt><dd id="rDay"></dd></div>
+        <div><dt data-i18n="sun.noonAlt"></dt><dd id="rNoon"></dd></div>
+      </dl>
+    </div>
+  </div>
+  <div class="sun-chart">
+    <svg id="sunSvg" viewBox="-230 -230 460 460" role="img" aria-labelledby="sunSvgTitle"><title id="sunSvgTitle">Sun path diagram</title></svg>
+    <p class="chart-note" data-i18n="sun.chartNote"></p>
+  </div>
+</section>
+
+<!-- MAP + NEARBY -->
+<section id="map" class="section">
+  <h2 data-i18n="map.title"></h2>
+  <p class="sub" data-i18n="map.sub"></p>
+  <div class="map-wrap"><div id="mapCanvas"></div></div>
+  <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
+
+  <div class="nearby">
+    <div>
+      <h3 data-i18n="near.transport"></h3>
+      <ul>
+        <li data-i18n="near.t1"></li>
+        <li data-i18n="near.t2"></li>
+        <li data-i18n="near.t3"></li>
+        <li data-i18n="near.t4"></li>
+      </ul>
+    </div>
+    <div>
+      <h3 data-i18n="near.schools"></h3>
+      <ul>
+        <li data-i18n="near.s1"></li>
+        <li data-i18n="near.s2"></li>
+        <li data-i18n="near.s3"></li>
+      </ul>
+    </div>
+    <div>
+      <h3 data-i18n="near.leisure"></h3>
+      <ul>
+        <li data-i18n="near.l1"></li>
+        <li data-i18n="near.l2"></li>
+        <li data-i18n="near.l3"></li>
+        <li data-i18n="near.l4"></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div>
+    <p class="eyebrow light" data-i18n="contact.eyebrow"></p>
+    <h2 data-i18n="contact.title"></h2>
+    <p data-i18n="contact.text"></p>
+    <div class="contact-direct">
+      <div class="c-name" id="cName"></div>
+      <a id="cPhone" class="c-line"></a>
+      <a id="cEmail" class="c-line"></a>
+    </div>
+  </div>
+  <form id="contactForm" class="form">
+    <label><span data-i18n="form.name"></span><input name="name" required autocomplete="name"></label>
+    <label><span data-i18n="form.email"></span><input name="email" type="email" required autocomplete="email"></label>
+    <label><span data-i18n="form.phone"></span><input name="phone" type="tel" autocomplete="tel"></label>
+    <label><span data-i18n="form.message"></span><textarea name="message" rows="4" data-i18n-placeholder="form.placeholder"></textarea></label>
+    <button class="btn" type="submit" data-i18n="form.send"></button>
+    <p class="form-note" data-i18n="form.note"></p>
+  </form>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>Szirtes út 26/B · 1016 Budapest</p>
+  <p class="small" data-i18n="footer.disclaimer"></p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-prev" aria-label="Previous">‹</button>
+  <img id="lbImg" alt="">
+  <button class="lb-next" aria-label="Next">›</button>
+  <p id="lbCap"></p>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
