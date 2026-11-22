@@ -44,7 +44,7 @@
     <ul class="facts">
       <li><strong>82 m²</strong><span data-i18n="fact.area"></span></li>
       <li><strong>2</strong><span data-i18n="fact.bedrooms"></span></li>
-      <li><strong>2 + 1</strong><span data-i18n="fact.baths"></span></li>
+      <li><strong data-i18n="fact.bathsVal"></strong><span data-i18n="fact.baths"></span></li>
       <li><strong data-i18n="fact.floorVal"></strong><span data-i18n="fact.floor"></span></li>
       <li><strong data-i18n="fact.terraceVal"></strong><span data-i18n="fact.terrace"></span></li>
     </ul>
@@ -127,6 +127,21 @@
   </aside>
 </section>
 
+<!-- UNESCO -->
+<section id="unesco" class="section unesco">
+  <div class="unesco-text">
+    <p class="eyebrow"><span class="u-badge">UNESCO</span> <span data-i18n="unesco.eyebrow"></span></p>
+    <h2 data-i18n="unesco.title"></h2>
+    <p data-i18n="unesco.p1"></p>
+    <h3 data-i18n="unesco.p2t"></h3>
+    <p data-i18n="cit.p1"></p>
+  </div>
+  <figure class="unesco-photo">
+    <img src="/img/citadel-lookout.webp" srcset="/img/citadel-lookout-sm.webp 900w, /img/citadel-lookout.webp 2400w" sizes="(max-width: 900px) 100vw, 640px" alt="" data-i18n-alt="cit.lookCap" loading="lazy">
+    <figcaption data-i18n="cit.lookCap"></figcaption>
+  </figure>
+</section>
+
 <!-- SUN -->
 <section id="sun" class="sun">
   <div class="sun-text">
@@ -160,6 +175,33 @@
       <p class="sun-status" id="sunStatus"></p>
       <p class="sun-note" data-i18n="sun3d.note"></p>
     </div>
+  </div>
+</section>
+
+<!-- CITADELLA -->
+<section id="citadella" class="citadella">
+  <div class="cit-inner">
+    <p class="eyebrow light" data-i18n="cit.eyebrow"></p>
+    <h2 data-i18n="cit.title"></h2>
+    <p class="cit-walk"><span class="cit-badge">&lt;5 min</span><span data-i18n="cit.walk"></span></p>
+    <figure class="cit-map">
+      <img src="/img/walk-map.webp" srcset="/img/walk-map-sm.webp 900w, /img/walk-map.webp 2400w" sizes="(max-width: 900px) 100vw, 1300px" alt="" data-i18n-alt="cit.mapCap" loading="lazy">
+      <figcaption data-i18n="cit.mapCap"></figcaption>
+    </figure>
+    <div class="cit-grid">
+      <div class="cit-text">
+        <h3 data-i18n="cit.p2t"></h3><p data-i18n="cit.p2"></p>
+        <h3 data-i18n="cit.p3t"></h3><p data-i18n="cit.p3"></p>
+      </div>
+      <figure class="cit-photo">
+        <img src="/img/citadella-park-1.webp" srcset="/img/citadella-park-1-sm.webp 800w, /img/citadella-park-1.webp 1800w" sizes="(max-width: 900px) 100vw, 640px" alt="" data-i18n-alt="g.citPark1" loading="lazy">
+        <figcaption data-i18n="g.citPark1"></figcaption>
+      </figure>
+    </div>
+    <figure class="cit-wide">
+      <img src="/img/citadella-park-2.webp" srcset="/img/citadella-park-2-sm.webp 800w, /img/citadella-park-2.webp 1800w" sizes="(max-width: 900px) 100vw, 1300px" alt="" data-i18n-alt="g.citPark2" loading="lazy">
+      <figcaption data-i18n="g.citPark2"></figcaption>
+    </figure>
   </div>
 </section>
 
@@ -199,30 +241,6 @@
         <li data-i18n="near.l3"></li>
         <li data-i18n="near.l4"></li>
       </ul>
-    </div>
-  </div>
-</section>
-
-<!-- CITADELLA -->
-<section id="citadella" class="citadella">
-  <div class="cit-inner">
-    <p class="eyebrow light" data-i18n="cit.eyebrow"></p>
-    <h2 data-i18n="cit.title"></h2>
-    <p class="cit-walk"><span class="cit-badge">&lt;5 min</span><span data-i18n="cit.walk"></span></p>
-    <figure class="cit-map">
-      <img src="/img/walk-map.webp" srcset="/img/walk-map-sm.webp 900w, /img/walk-map.webp 2400w" sizes="(max-width: 900px) 100vw, 1300px" alt="" data-i18n-alt="cit.mapCap" loading="lazy">
-      <figcaption data-i18n="cit.mapCap"></figcaption>
-    </figure>
-    <div class="cit-grid">
-      <div class="cit-text">
-        <h3 data-i18n="cit.p1t"></h3><p data-i18n="cit.p1"></p>
-        <h3 data-i18n="cit.p2t"></h3><p data-i18n="cit.p2"></p>
-        <h3 data-i18n="cit.p3t"></h3><p data-i18n="cit.p3"></p>
-      </div>
-      <figure class="cit-photo">
-        <img src="/img/citadel-lookout.webp" srcset="/img/citadel-lookout-sm.webp 900w, /img/citadel-lookout.webp 2400w" sizes="(max-width: 900px) 100vw, 640px" alt="" data-i18n-alt="cit.lookCap" loading="lazy">
-        <figcaption data-i18n="cit.lookCap"></figcaption>
-      </figure>
     </div>
   </div>
 </section>
