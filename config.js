@@ -15,12 +15,10 @@ window.SITE_CONFIG = {
   PRICE_HUF: 200000000,
   AREA_M2: 82,
 
-  // Map pin. With a Google key the page geocodes ADDRESS automatically.
-  // If that pin is still off: right-click the building in Google Maps, copy the
-  // coordinates here, and set PROPERTY_PIN_EXACT to true.
+  // Map pin. APPROXIMATE — confirm by right-clicking the building in
+  // Google Maps and copying the coordinates it shows.
   PROPERTY_LAT: 47.4875,
   PROPERTY_LNG: 19.0430,
-  PROPERTY_PIN_EXACT: false,
 
   CITADELLA_LAT: 47.48694,
   CITADELLA_LNG: 19.04639

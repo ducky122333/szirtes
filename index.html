@@ -44,13 +44,14 @@
     <ul class="facts">
       <li><strong>82 m²</strong><span data-i18n="fact.area"></span></li>
       <li><strong>2</strong><span data-i18n="fact.bedrooms"></span></li>
-      <li><strong data-i18n="fact.bathsVal"></strong><span data-i18n="fact.baths"></span></li>
+      <li><strong>2 + 1</strong><span data-i18n="fact.baths"></span></li>
       <li><strong data-i18n="fact.floorVal"></strong><span data-i18n="fact.floor"></span></li>
       <li><strong data-i18n="fact.terraceVal"></strong><span data-i18n="fact.terrace"></span></li>
     </ul>
     <div class="price-row">
       <div>
         <div class="price" id="price"></div>
+        <div class="price-sub" id="pricePerM2"></div>
       </div>
       <a href="#contact" class="btn" data-i18n="hero.cta"></a>
     </div>
@@ -64,7 +65,7 @@
 <!-- LOCATION HIGHLIGHT -->
 <section id="location" class="location">
   <div class="loc-head">
-    <div class="big-stat"><span class="num">&lt;5</span><span class="unit" data-i18n="loc.minutes"></span></div>
+    <div class="big-stat"><span class="num">3</span><span class="unit" data-i18n="loc.minutes"></span></div>
     <div>
       <p class="eyebrow light" data-i18n="loc.eyebrow"></p>
       <h2 data-i18n="loc.title"></h2>
@@ -127,95 +128,44 @@
   </aside>
 </section>
 
-<!-- UNESCO -->
-<section id="unesco" class="section unesco">
-  <div class="unesco-text">
-    <p class="eyebrow"><span class="u-badge">UNESCO</span> <span data-i18n="unesco.eyebrow"></span></p>
-    <h2 data-i18n="unesco.title"></h2>
-    <p data-i18n="unesco.p1"></p>
-    <h3 data-i18n="unesco.p2t"></h3>
-    <p data-i18n="cit.p1"></p>
-  </div>
-  <figure class="unesco-photo">
-    <img src="/img/citadel-lookout.webp" srcset="/img/citadel-lookout-sm.webp 900w, /img/citadel-lookout.webp 2400w" sizes="(max-width: 900px) 100vw, 640px" alt="" data-i18n-alt="cit.lookCap" loading="lazy">
-    <figcaption data-i18n="cit.lookCap"></figcaption>
-  </figure>
-</section>
-
 <!-- SUN -->
 <section id="sun" class="sun">
   <div class="sun-text">
     <p class="eyebrow light" data-i18n="sun.eyebrow"></p>
     <h2 data-i18n="sun.title"></h2>
-    <p data-i18n="sun.p3"></p>
     <p data-i18n="sun.p1"></p>
     <p data-i18n="sun.p2"></p>
-  </div>
-  <div class="sun-panel">
-    <div class="sun-map" id="sun3d">
-      <div id="sun3dMap"></div>
-      <div class="sun-loading" id="sunLoading" data-i18n="sun3d.loading"></div>
-      <div class="sun3d-night" id="sun3dNight" hidden data-i18n="sun.below"></div>
-    </div>
-    <div class="sun-ctl">
-      <div class="chips" id="seasonBtns">
-        <button data-day="today" data-i18n="sun.today"></button>
-        <button data-day="spring" data-i18n="sun.spring"></button>
-        <button data-day="summer" data-i18n="sun.summer"></button>
-        <button data-day="autumn" data-i18n="sun.autumn"></button>
+    <p data-i18n="sun.p3"></p>
+    <div class="sun-controls">
+      <div class="seg" id="seasonBtns">
         <button data-day="winter" data-i18n="sun.winter"></button>
+        <button data-day="equinox" data-i18n="sun.equinox"></button>
+        <button data-day="summer" data-i18n="sun.summer"></button>
+        <button data-day="today" data-i18n="sun.today"></button>
       </div>
-      <div class="sun-time">
-        <button class="sun-playbtn" id="sunPlay" type="button" aria-label="Play"><svg viewBox="0 0 24 24" width="16" height="16"><path id="sunPlayIcon" d="M8 5v14l11-7z" fill="currentColor"/></svg></button>
-        <svg class="sun-ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 18h18M6 18a6 6 0 0 1 12 0M12 4v4M9.5 6.5 12 4l2.5 2.5M4.2 11.2l1.6 1M19.8 11.2l-1.6 1" fill="none" stroke="#d99a2b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <input type="range" id="timeSlider" min="420" max="960" step="1" aria-label="Time of day">
-        <svg class="sun-ic" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 18h18M6 18a6 6 0 0 1 12 0M12 8V4M9.5 5.5 12 8l2.5-2.5M4.2 11.2l1.6 1M19.8 11.2l-1.6 1" fill="none" stroke="#c8553d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <output id="timeOut" class="sun-clock"></output>
-      </div>
-      <p class="sun-status" id="sunStatus"></p>
-      <p class="sun-note" data-i18n="sun3d.note"></p>
+      <label class="slider"><span data-i18n="sun.time"></span> <output id="timeOut"></output>
+        <input type="range" id="timeSlider" min="0" max="1439" step="5">
+      </label>
+      <dl class="sun-readout">
+        <div><dt data-i18n="sun.sunrise"></dt><dd id="rSunrise"></dd></div>
+        <div><dt data-i18n="sun.sunset"></dt><dd id="rSunset"></dd></div>
+        <div><dt data-i18n="sun.daylight"></dt><dd id="rDay"></dd></div>
+        <div><dt data-i18n="sun.noonAlt"></dt><dd id="rNoon"></dd></div>
+      </dl>
     </div>
   </div>
-</section>
-
-<!-- CITADELLA -->
-<section id="citadella" class="citadella">
-  <div class="cit-inner">
-    <p class="eyebrow light" data-i18n="cit.eyebrow"></p>
-    <h2 data-i18n="cit.title"></h2>
-    <p class="cit-walk"><span class="cit-badge">&lt;5 min</span><span data-i18n="cit.walk"></span></p>
-    <figure class="cit-map">
-      <img src="/img/walk-map.webp" srcset="/img/walk-map-sm.webp 900w, /img/walk-map.webp 2400w" sizes="(max-width: 900px) 100vw, 1300px" alt="" data-i18n-alt="cit.mapCap" loading="lazy">
-      <figcaption data-i18n="cit.mapCap"></figcaption>
-    </figure>
-    <div class="cit-grid">
-      <div class="cit-text">
-        <h3 data-i18n="cit.p2t"></h3><p data-i18n="cit.p2"></p>
-        <h3 data-i18n="cit.p3t"></h3><p data-i18n="cit.p3"></p>
-      </div>
-      <figure class="cit-photo">
-        <img src="/img/citadella-park-1.webp" srcset="/img/citadella-park-1-sm.webp 800w, /img/citadella-park-1.webp 1800w" sizes="(max-width: 900px) 100vw, 640px" alt="" data-i18n-alt="g.citPark1" loading="lazy">
-        <figcaption data-i18n="g.citPark1"></figcaption>
-      </figure>
-    </div>
-    <figure class="cit-wide">
-      <img src="/img/citadella-park-2.webp" srcset="/img/citadella-park-2-sm.webp 800w, /img/citadella-park-2.webp 1800w" sizes="(max-width: 900px) 100vw, 1300px" alt="" data-i18n-alt="g.citPark2" loading="lazy">
-      <figcaption data-i18n="g.citPark2"></figcaption>
-    </figure>
+  <div class="sun-chart">
+    <svg id="sunSvg" viewBox="-230 -230 460 460" role="img" aria-labelledby="sunSvgTitle"><title id="sunSvgTitle">Sun path diagram</title></svg>
+    <p class="chart-note" data-i18n="sun.chartNote"></p>
   </div>
 </section>
 
 <!-- MAP + NEARBY -->
 <section id="map" class="section">
   <h2 data-i18n="map.title"></h2>
+  <p class="sub" data-i18n="map.sub"></p>
   <div class="map-wrap"><div id="mapCanvas"></div></div>
-  <div class="map-below">
-    <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
-    <button class="sv-thumb" id="svThumb" type="button" hidden>
-      <img id="svImg" alt="">
-      <span data-i18n="sv.label"></span>
-    </button>
-  </div>
+  <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
 
   <div class="nearby">
     <div>
@@ -225,13 +175,15 @@
         <li data-i18n="near.t2"></li>
         <li data-i18n="near.t3"></li>
         <li data-i18n="near.t4"></li>
-        <li data-i18n="near.t5"></li>
       </ul>
     </div>
     <div>
       <h3 data-i18n="near.schools"></h3>
-      <ul class="school-list" id="schoolList"></ul>
-      <p class="school-note" data-i18n="school.note"></p>
+      <ul>
+        <li data-i18n="near.s1"></li>
+        <li data-i18n="near.s2"></li>
+        <li data-i18n="near.s3"></li>
+      </ul>
     </div>
     <div>
       <h3 data-i18n="near.leisure"></h3>
@@ -243,31 +195,6 @@
       </ul>
     </div>
   </div>
-</section>
-
-<!-- AIR QUALITY -->
-<section id="air" class="section air" hidden>
-  <div class="elev-badge" id="elevBadge" hidden></div>
-  <p class="eyebrow" data-i18n="air.eyebrow"></p>
-  <h2 data-i18n="air.title"></h2>
-  <div class="aq-cards">
-    <article class="aq-card home" id="aqHome">
-      <span class="aq-tag" data-i18n="air.homeTag"></span>
-      <h3 data-i18n="air.homeName"></h3>
-      <div class="aq-num"><span class="v"></span><span class="of">/100</span></div>
-      <div class="aq-cat"></div>
-      <div class="aq-pol"></div>
-    </article>
-    <article class="aq-card" id="aqCity">
-      <span class="aq-tag muted" data-i18n="air.cityTag"></span>
-      <h3 class="aq-place"></h3>
-      <div class="aq-num"><span class="v"></span><span class="of">/100</span></div>
-      <div class="aq-cat"></div>
-      <div class="aq-pol"></div>
-    </article>
-  </div>
-  <p class="aq-caption" id="aqCaption"></p>
-  <p class="aq-foot" id="aqFoot"></p>
 </section>
 
 <!-- CONTACT -->
@@ -307,7 +234,6 @@
   <p id="lbCap"></p>
 </div>
 
-<script src="https://unpkg.com/suncalc@1.9.0/suncalc.js"></script>
 <script src="/app.js"></script>
 </body>
 </html>
