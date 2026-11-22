@@ -337,9 +337,9 @@ function applyLang(l) {
     ? "Szirtes út 26/B — Eladó lakás a Citadella mellett, Budapest"
     : "Szirtes út 26/B — Apartment for sale by the Citadella, Budapest";
   try { localStorage.setItem("lang", l); } catch (e) {}
-  if (location.protocol.startsWith("http")) {
-    const p = location.pathname.replace(/\/(en|hu)\/?$/, "/");
-    history.replaceState(null, "", p.replace(/\/?$/, "/") + l + location.hash);
+  // Keep the address bar clean (no /en or /hu) so copied links always open.
+  if (location.protocol.startsWith("http") && /\/(en|hu)\/?$/.test(location.pathname)) {
+    history.replaceState(null, "", location.pathname.replace(/(en|hu)\/?$/, "") + location.search + location.hash);
   }
   renderPrice(); renderGallery(); renderSchools(); updateSunUI(); updateMapLang(); renderAir();
 }

@@ -1,10 +1,32 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/en", "destination": "/index.html" },
-    { "source": "/hu", "destination": "/index.html" }
+    {
+      "source": "/en",
+      "destination": "/"
+    },
+    {
+      "source": "/en/",
+      "destination": "/"
+    },
+    {
+      "source": "/hu",
+      "destination": "/"
+    },
+    {
+      "source": "/hu/",
+      "destination": "/"
+    }
   ],
   "headers": [
-    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }
