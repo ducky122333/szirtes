@@ -7,17 +7,17 @@ const T = {
 en: {
   "nav.location":"Location","nav.gallery":"Photos","nav.details":"Details","nav.sun":"Sunlight","nav.map":"Map","nav.contact":"Contact",
   "hero.eyebrow":"For sale · Gellért Hill · Budapest District I",
-  "hero.title":"Bright, spacious apartment in a garden of mature trees — 3 minutes from the Citadella",
+  "hero.title":"Bright, spacious apartment in a garden court of mature trees, under 5 minutes from the Citadella",
   "hero.lead":"82 m² on the second floor of a gated garden court on Gellért Hill, with a south-facing terrace overlooking Verejték Park and the Citadella promenade.",
   "hero.cta":"Arrange a viewing",
   "hero.caption":"The apartment is circled in red: 2nd floor, at the end of the building.",
   "fact.area":"floor area","fact.bedrooms":"bedrooms","fact.baths":"bathrooms + WC","fact.floorVal":"2nd","fact.floor":"floor","fact.terraceVal":"South","fact.terrace":"facing terrace",
-  "loc.minutes":"minutes' walk to the Citadella",
+  "loc.minutes":"minute walk to the Citadel Lookout",
   "loc.eyebrow":"Location",
   "loc.title":"Next door to Budapest's most famous viewpoint",
-  "loc.text":"The Citadella and the Liberty Statue crown Gellért Hill, high above the Danube. From Szirtes út it is a 3-minute walk to the Citadella promenade and its sweeping panorama of the bridges, Buda Castle and Parliament, yet the garden court itself is quiet and gated, among old trees.",
+  "loc.text":"The Citadella and the Liberty Statue crown Gellért Hill, part of Budapest's UNESCO World Heritage site, high above the Danube. From Szirtes út it is under 5 minutes' walk to the Citadel Lookout and its sweeping panorama of the bridges, Buda Castle and Parliament, yet the garden court itself is quiet and gated, among old trees.",
   "loc.aerialCaption":"The red arrow marks the property, just behind the Citadella on Gellért Hill.",
-  "loc.p1t":"3 minutes to the Citadella","loc.p1":"Walks on the Citadella promenade and the paths of Gellért Hill start at your gate.",
+  "loc.p1t":"<5 min walk to the Citadel Lookout","loc.p1":"Walks on the Citadella promenade and the paths of Gellért Hill start at your gate.",
   "loc.p2t":"Green and quiet","loc.p2":"A fenced residential courtyard in a large garden of mature trees, with parking inside the grounds.",
   "loc.p3t":"Central, yet secluded","loc.p3":"The Danube, the Gellért Baths and Elizabeth Bridge are within walking distance downhill; Pest's city centre is just across the river.",
   "loc.p4t":"Well connected","loc.p4":"Bus 27 stops on Szirtes út and runs to Móricz Zsigmond körtér for metro line M4 and trams.",
@@ -48,7 +48,7 @@ en: {
   "sun.title":"A sunny terrace in every season",
   "sun.p1":"The terrace faces south, and windows on three sides let the sun travel through the apartment from morning to evening.",
   "sun.p2":"In Budapest the midday sun stands only about 19° above the horizon in December, low enough that many city apartments lose it behind the building opposite. Set high on the slope of Gellért Hill, at the end of its block, this apartment has an open southern outlook, so even the low winter sun reaches the terrace and pours into the rooms.",
-  "sun.p3":"Open the 3D view, pick a season and drag the time slider to watch sunlight and shadows move across the building and Gellért Hill.",
+  "sun.p3":"See how sunlight falls on and around the apartment at any time of day, in every season. The south-facing balcony enjoys prime light all year round.",
   "sun.winter":"Winter","sun.equinox":"Spring / autumn","sun.summer":"Summer","sun.today":"Today",
   "sun.time":"Time:","sun.sunrise":"Sunrise","sun.sunset":"Sunset","sun.daylight":"Daylight","sun.noonAlt":"Midday sun",
   "sun.N":"N","sun.E":"E","sun.S":"S","sun.W":"W","sun.below":"Sun below horizon",
@@ -82,10 +82,44 @@ en: {
   "g.balconySunset":"Terrace at sunset","g.balconyDay":"South-facing terrace","g.bedroom":"Bedroom","g.garden":"The garden",
   "g.kitchen":"Kitchen","g.dining":"Dining room","g.bathTub":"Bathroom with corner bath","g.bathSinks":"Bathroom with double sink","g.street":"Szirtes út",
   "dur":"{h} h {m} min",
+  "sun.spring":"Spring",
+  "sun.autumn":"Autumn",
+  "sun.status":"Sun {alt}° high, in the {dir} · Sunrise {rise} · Sunset {set}",
+  "sun.statusNight":"Sun below the horizon · Sunrise {rise} · Sunset {set}",
+  "sun.play":"Play the day",
+  "sun.pause":"Pause",
+  "sun3d.loading":"Loading 3D map…",
+  "dirA.N":"north",
+  "dirA.NE":"north-east",
+  "dirA.E":"east",
+  "dirA.SE":"south-east",
+  "dirA.S":"south",
+  "dirA.SW":"south-west",
+  "dirA.W":"west",
+  "dirA.NW":"north-west",
+  "cit.eyebrow":"The Citadella on your doorstep",
+  "cit.title":"Under 5 minutes' walk to the Citadel Lookout",
+  "cit.walk":"About 300–350 m on foot, 4–5 minutes",
+  "cit.p1t":"Steps from the newly reopened Citadella",
+  "cit.p1":"After a multi-year renovation, the Citadella, part of Budapest's UNESCO World Heritage site, reopened in spring 2026. It now has newly landscaped public parkland and green space of around 20,000 m², panoramic terraces, open fortress-wall walkways and the Bastion of Freedom exhibition.",
+  "cit.p2t":"A quiet road with no through-traffic",
+  "cit.p2":"The road the balcony looks over leads only up to the park and the Citadella; it isn't a route for daily commuters. The people you see passing by are out for a relaxing walk or on their way to one of Budapest's finest landmarks, which makes for a pleasant atmosphere right outside your door.",
+  "cit.p3t":"Front-row seat for the 20 August fireworks",
+  "cit.p3":"Gellért Hill is one of Budapest's classic spots for watching the national holiday fireworks over the Danube on 20 August, and the Citadel Lookout is under five minutes' walk from home.",
+  "cit.mapCap":"Walking route from the apartment (red pin) to the Citadel Lookout. Map: Google.",
+  "cit.lookCap":"The Citadel Lookout (Citadella Kilátó): the view over the Danube, the bridges and Parliament.",
+  "school.note":"Distances are approximate straight-line figures from OpenStreetMap data. In Hungary, state primary schools admit by catchment area (körzet); check with the school or the district office.",
+  "school.kg":"Kindergarten (óvoda)",
+  "school.school":"School",
+  "school.uni":"University",
+  "school.peto":"School (conductive education, Pető method)",
+  "school.walk":"{m} min walk · {d} m",
+  "near.t5":"Sánc utca on Hegyalja út: buses 110 and 112 to the city centre; terminus of bus 27",
+  "hero.unesco":"Under 5 minutes' walk to the Citadella, part of Budapest's UNESCO World Heritage site",
   "sun3d.eyebrow":"Interactive","sun3d.title":"Explore 3D sun & shadows",
   "sun3d.text":"See the building and its neighbours on Gellért Hill in 3D, and watch where sunlight and shadows fall at any time of year.",
   "sun3d.button":"Load 3D view",
-  "sun3d.note":"Approximate simulation. Building shadows assume level ground and trees are not modelled; hill shading comes from a terrain model. Map: OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors.",
+  "sun3d.note":"Building heights come from OpenStreetMap and may be approximate; trees and terrain are not shown. Times are Budapest time. Map: OpenFreeMap © OpenMapTiles, data © OpenStreetMap.",
   "sun3d.fail":"The 3D view could not be loaded. Please try again later.",
   "sun3d.readout":"{time} · sun {alt}° high, from the {dir}",
   "dir.N":"north","dir.NE":"north-east","dir.E":"east","dir.SE":"south-east","dir.S":"south","dir.SW":"south-west","dir.W":"west","dir.NW":"north-west",
@@ -108,17 +142,17 @@ en: {
 hu: {
   "nav.location":"Elhelyezkedés","nav.gallery":"Fotók","nav.details":"Részletek","nav.sun":"Napfény","nav.map":"Térkép","nav.contact":"Kapcsolat",
   "hero.eyebrow":"Eladó · Gellérthegy · Budapest I. kerület",
-  "hero.title":"Világos, tágas lakás ősfás lakóudvarban, a Citadellától mindössze 3 percre",
+  "hero.title":"Világos, tágas lakás ősfás lakóudvarban, a Citadellától kevesebb mint 5 perc sétára",
   "hero.lead":"82 m²-es lakás egy zárt, ősfás lakóudvar 2. emeletén a Gellérthegyen, déli fekvésű terasszal, kilátással a Verejték parkra és a Citadella sétányra.",
   "hero.cta":"Megtekintés egyeztetése",
   "hero.caption":"A lakást piros kör jelöli: 2. emelet, az épület szélén.",
   "fact.area":"alapterület","fact.bedrooms":"hálószoba","fact.baths":"fürdőszoba + WC","fact.floorVal":"2.","fact.floor":"emelet","fact.terraceVal":"Déli","fact.terrace":"fekvésű terasz",
-  "loc.minutes":"perc séta a Citadelláig",
+  "loc.minutes":"perc séta a Citadella Kilátóig",
   "loc.eyebrow":"Elhelyezkedés",
   "loc.title":"Budapest leghíresebb kilátópontjának szomszédságában",
-  "loc.text":"A Citadella és a Szabadság-szobor a Gellérthegy csúcsán, magasan a Duna fölött áll. A Szirtes útról mindössze 3 perc séta a Citadella sétány, ahonnan az egész város, a hidak, a budai Vár és a Parlament látható, maga a lakóudvar pedig csendes, zárt kert az ősfák között.",
+  "loc.text":"A Citadella és a Szabadság-szobor a Gellérthegy csúcsán, Budapest UNESCO Világörökség részeként, magasan a Duna fölött áll. A Szirtes útról kevesebb mint 5 perc séta a Citadella Kilátó, ahonnan az egész város, a hidak, a budai Vár és a Parlament látható, maga a lakóudvar pedig csendes, zárt kert az ősfák között.",
   "loc.aerialCaption":"A piros nyíl az ingatlant jelöli, közvetlenül a Citadella mögött a Gellérthegyen.",
-  "loc.p1t":"3 perc a Citadella","loc.p1":"A Citadella sétány és a Gellérthegy ösvényei a kapu előtt kezdődnek.",
+  "loc.p1t":"<5 perc séta a Citadella Kilátóig","loc.p1":"A Citadella sétány és a Gellérthegy ösvényei a kapu előtt kezdődnek.",
   "loc.p2t":"Zöld és csendes","loc.p2":"Bekerített lakóudvar hatalmas, ősfás kertben, parkolási lehetőséggel a területen belül.",
   "loc.p3t":"Központi, mégis elvonult","loc.p3":"A Duna-part, a Gellért fürdő és az Erzsébet híd gyalog is elérhető lefelé a hegyről; a pesti belváros a folyó túlpartján van.",
   "loc.p4t":"Jó közlekedés","loc.p4":"A 27-es busz a Szirtes úton is megáll, és a Móricz Zsigmond körtérre visz (M4-es metró, villamosok).",
@@ -149,7 +183,7 @@ hu: {
   "sun.title":"Napos terasz minden évszakban",
   "sun.p1":"A terasz déli fekvésű, a három égtáj felé néző ablakokon át pedig reggeltől estig végigvándorol a napfény a lakáson.",
   "sun.p2":"Budapesten decemberben délben mindössze kb. 19°-kal jár a nap a horizont felett, ezért sok városi lakásból a szemközti épület eltakarja. Ez a lakás a Gellérthegy oldalában, magasan, az épülettömb szélén fekszik, déli irányban nyitott kilátással, így a téli, alacsonyan járó nap is besüt a teraszra és a szobákba.",
-  "sun.p3":"Nyissa meg a 3D nézetet, válasszon évszakot, és a csúszkával kövesse, hogyan vándorol a napfény és az árnyék az épületen és a Gellérthegyen.",
+  "sun.p3":"Nézze meg, hogyan esik a napfény a lakásra és környezetére a nap bármely órájában, minden évszakban. A déli fekvésű erkély egész évben kiváló fényt kap.",
   "sun.winter":"Tél","sun.equinox":"Tavasz / ősz","sun.summer":"Nyár","sun.today":"Ma",
   "sun.time":"Időpont:","sun.sunrise":"Napkelte","sun.sunset":"Napnyugta","sun.daylight":"Nappal","sun.noonAlt":"Déli napmagasság",
   "sun.N":"É","sun.E":"K","sun.S":"D","sun.W":"Ny","sun.below":"A nap a horizont alatt",
@@ -183,10 +217,44 @@ hu: {
   "g.balconySunset":"Terasz naplementekor","g.balconyDay":"Déli fekvésű terasz","g.bedroom":"Hálószoba","g.garden":"A kert",
   "g.kitchen":"Konyha","g.dining":"Étkező","g.bathTub":"Fürdőszoba sarokkáddal","g.bathSinks":"Fürdőszoba dupla mosdóval","g.street":"Szirtes út",
   "dur":"{h} óra {m} perc",
+  "sun.spring":"Tavasz",
+  "sun.autumn":"Ősz",
+  "sun.status":"A nap {alt}° magasan jár, {dir} irányban · Napkelte {rise} · Napnyugta {set}",
+  "sun.statusNight":"A nap a horizont alatt · Napkelte {rise} · Napnyugta {set}",
+  "sun.play":"A nap lejátszása",
+  "sun.pause":"Szünet",
+  "sun3d.loading":"3D térkép betöltése…",
+  "dirA.N":"északi",
+  "dirA.NE":"északkeleti",
+  "dirA.E":"keleti",
+  "dirA.SE":"délkeleti",
+  "dirA.S":"déli",
+  "dirA.SW":"délnyugati",
+  "dirA.W":"nyugati",
+  "dirA.NW":"északnyugati",
+  "cit.eyebrow":"A Citadella a szomszédban",
+  "cit.title":"Kevesebb mint 5 perc séta a Citadella Kilátóig",
+  "cit.walk":"Gyalog kb. 300–350 m, 4–5 perc",
+  "cit.p1t":"Pár lépésre a megújult Citadellától",
+  "cit.p1":"A többéves felújítás után 2026 tavaszán újranyitott Citadella Budapest UNESCO Világörökségének része. Megújult, parkosított közterekkel és mintegy 20 000 m²-es zöldfelülettel, panorámateraszokkal, szabadon bejárható várfalsétányokkal és A Szabadság Bástyája kiállítással várja a látogatókat.",
+  "cit.p2t":"Csendes utca, átmenő forgalom nélkül",
+  "cit.p2":"Az erkély alatti út csak fel a parkhoz és a Citadellához vezet; nem a munkába sietők útvonala. A teraszról olyan embereket látni elhaladni, akik egyszerűen csak egy pihentető sétára indultak, vagy Budapest egyik legszebb látványosságát keresik fel, ami igazán kellemes hangulatot teremt.",
+  "cit.p3t":"Első sor az augusztus 20-i tűzijátékhoz",
+  "cit.p3":"A Gellérthegy Budapest egyik legkedveltebb pontja az augusztus 20-i ünnepi tűzijáték megtekintéséhez a Duna felett, a Citadella Kilátó pedig kevesebb mint 5 perc séta a lakástól.",
+  "cit.mapCap":"Gyalogos útvonal a lakástól (piros jelölő) a Citadella Kilátóig. Térkép: Google.",
+  "cit.lookCap":"A Citadella Kilátó: kilátás a Dunára, a hidakra és a Parlamentre.",
+  "school.note":"A távolságok légvonalbeli, közelítő értékek az OpenStreetMap adatai alapján. Az állami általános iskolák körzet szerint vesznek fel tanulókat; erről az iskolánál vagy a kerületnél érdemes tájékozódni.",
+  "school.kg":"Óvoda",
+  "school.school":"Iskola",
+  "school.uni":"Egyetem",
+  "school.peto":"Iskola (konduktív pedagógia, Pető-módszer)",
+  "school.walk":"{m} perc séta · {d} m",
+  "near.t5":"Sánc utca a Hegyalja úton: 110-es és 112-es busz a belvárosba; a 27-es busz végállomása",
+  "hero.unesco":"Kevesebb mint 5 perc séta a Citadelláig, amely Budapest UNESCO Világörökség részét képezi",
   "sun3d.eyebrow":"Interaktív","sun3d.title":"3D nap- és árnyékszimulátor",
   "sun3d.text":"Nézze meg az épületet és környezetét 3D-ben a Gellérthegyen, és kövesse, hová esik a napfény és az árnyék az év bármely napján.",
   "sun3d.button":"3D nézet betöltése",
-  "sun3d.note":"Tájékoztató jellegű szimuláció. Az épületárnyékok sík terepet feltételeznek, a fákat a modell nem tartalmazza; a domborzat árnyékolása terepmodellből származik. Térkép: OpenFreeMap © OpenMapTiles, adatok © OpenStreetMap közreműködők.",
+  "sun3d.note":"Az épületmagasságok az OpenStreetMapből származnak, és közelítő értékek; a fák és a domborzat nem láthatók. Az időpontok budapesti idő szerint értendők. Térkép: OpenFreeMap © OpenMapTiles, adatok © OpenStreetMap.",
   "sun3d.fail":"A 3D nézet nem tölthető be. Kérjük, próbálja később.",
   "sun3d.readout":"{time} · napmagasság {alt}°, {dir} felől",
   "dir.N":"észak","dir.NE":"északkelet","dir.E":"kelet","dir.SE":"délkelet","dir.S":"dél","dir.SW":"délnyugat","dir.W":"nyugat","dir.NW":"északnyugat",
@@ -259,7 +327,7 @@ function applyLang(l) {
     const p = location.pathname.replace(/\/(en|hu)\/?$/, "/");
     history.replaceState(null, "", p.replace(/\/?$/, "/") + l + location.hash);
   }
-  renderPrice(); renderGallery(); updateSunUI(); updateMapLang(); renderAir(); renderWeather();
+  renderPrice(); renderGallery(); renderSchools(); updateSunUI(); updateMapLang(); renderAir(); renderWeather();
 }
 
 /* ---------------- Price ---------------- */
@@ -353,7 +421,8 @@ function seasonDate(key) {
   const now = new Date(), y = now.getFullYear();
   if (key === "winter") return [y, 11, 21];
   if (key === "summer") return [y, 5, 21];
-  if (key === "equinox") return [y, 2, 20];
+  if (key === "spring") return [y, 2, 20];
+  if (key === "autumn") return [y, 8, 22];
   const p = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Budapest" }).format(now).split("-");
   return [+p[0], +p[1] - 1, +p[2]];
 }
@@ -380,25 +449,52 @@ function dayInfo(y, m, d) {
 }
 const compass8 = az => ["N", "NE", "E", "SE", "S", "SW", "W", "NW"][Math.round(az / 45) % 8];
 
-let season = "winter", timeMin = 12 * 60;
+let season = "today", timeMin = 12 * 60, dayRange = [420, 960], playTimer = 0;
 function currentSun() { const [y, m, d] = seasonDate(season); return sunAt(localToUtc(y, m, d, timeMin)); }
+const slider = document.getElementById("timeSlider");
+const nowBp = () => bpMinutes(Date.now());
 
+function setSeason(key, keepTime) {
+  season = key;
+  const [y, m, d] = seasonDate(key);
+  const info = dayInfo(y, m, d);
+  const rise = info.rise ?? 360, set = info.set ?? 1200;
+  dayRange = [Math.ceil(rise), Math.floor(set)];
+  slider.min = dayRange[0]; slider.max = dayRange[1];
+  if (!keepTime) {
+    const noon = Math.round((rise + set) / 2);
+    const now = nowBp();
+    timeMin = key === "today" && now > dayRange[0] && now < dayRange[1] ? now : noon;
+  }
+  timeMin = Math.min(dayRange[1], Math.max(dayRange[0], timeMin));
+  slider.value = timeMin;
+  updateSunUI();
+}
 function updateSunUI() {
   const [y, m, d] = seasonDate(season);
   const info = dayInfo(y, m, d);
-  document.getElementById("rSunrise").textContent = fmtMin(info.rise);
-  document.getElementById("rSunset").textContent = fmtMin(info.set);
-  const len = info.rise != null && info.set != null ? info.set - info.rise : 0;
-  document.getElementById("rDay").textContent = t("dur", { h: Math.floor(len / 60), m: Math.round(len % 60) });
-  document.getElementById("rNoon").textContent = info.noonAlt == null ? "–" : Math.round(info.noonAlt) + "°";
+  const s = currentSun();
   document.getElementById("timeOut").textContent = fmtMin(timeMin);
+  const vars = { rise: fmtMin(info.rise), set: fmtMin(info.set), alt: Math.round(s.alt), dir: t("dirA." + compass8(s.az)) };
+  document.getElementById("sunStatus").textContent = t(s.alt > 0 ? "sun.status" : "sun.statusNight", vars);
   document.querySelectorAll("#seasonBtns button").forEach(b => b.classList.toggle("on", b.dataset.day === season));
+  document.getElementById("sunPlay").setAttribute("aria-label", t(playTimer ? "sun.pause" : "sun.play"));
   sun3d.update();
 }
-document.querySelectorAll("#seasonBtns button").forEach(b => b.addEventListener("click", () => { season = b.dataset.day; updateSunUI(); }));
-const slider = document.getElementById("timeSlider");
-slider.value = timeMin;
-slider.addEventListener("input", () => { timeMin = +slider.value; updateSunUI(); });
+function setPlayIcon() { document.getElementById("sunPlayIcon").setAttribute("d", playTimer ? "M7 5h4v14H7zM13 5h4v14h-4z" : "M8 5v14l11-7z"); }
+function stopPlay() { clearInterval(playTimer); playTimer = 0; setPlayIcon(); }
+document.getElementById("sunPlay").addEventListener("click", () => {
+  if (playTimer) { stopPlay(); updateSunUI(); return; }
+  if (timeMin >= dayRange[1] - 2) timeMin = dayRange[0];
+  playTimer = setInterval(() => {
+    timeMin = Math.min(dayRange[1], timeMin + 4);
+    slider.value = timeMin; updateSunUI();
+    if (timeMin >= dayRange[1]) stopPlay();
+  }, 60);
+  setPlayIcon(); updateSunUI();
+});
+document.querySelectorAll("#seasonBtns button").forEach(b => b.addEventListener("click", () => { stopPlay(); setSeason(b.dataset.day); }));
+slider.addEventListener("input", () => { stopPlay(); timeMin = +slider.value; updateSunUI(); });
 
 /* ---------------- Geometry helpers (shadows) ---------------- */
 const M_LAT = 110540;
@@ -466,26 +562,22 @@ function loadScript(src) {
 }
 function loadCss(href) { const l = document.createElement("link"); l.rel = "stylesheet"; l.href = href; document.head.appendChild(l); }
 
-/* ---------------- 3D sun & shadow map (MapLibre + OpenFreeMap) ---------------- */
+/* ---------------- Sun & shadow map (MapLibre + OpenFreeMap + SunCalc) ---------------- */
 const sun3d = (() => {
-  let map = null, srcId = "openmaptiles", bldLayer = null, raf = 0, homeMarker = null;
-  const box = document.getElementById("sun3d");
+  let map = null, srcId = "openmaptiles", bldLayer = null, raf = 0, homeMarker = null, started = false;
   const night = document.getElementById("sun3dNight");
-  const readout = document.getElementById("sun3dReadout");
+  const loading = document.getElementById("sunLoading");
   const LIB = "https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl";
 
   async function load() {
-    const btn = document.getElementById("sun3dLoad");
-    btn.disabled = true;
+    if (started) return; started = true;
     try {
       loadCss(LIB + ".css");
       await loadScript(LIB + ".js");
       if (!window.SunCalc) { try { await loadScript("https://unpkg.com/suncalc@1.9.0/suncalc.js"); } catch (e) {} }
       init();
-      box.classList.add("loaded");
     } catch (e) {
-      btn.disabled = false;
-      btn.textContent = t("sun3d.fail");
+      loading.textContent = t("sun3d.fail");
     }
   }
 
@@ -493,56 +585,38 @@ const sun3d = (() => {
     map = new maplibregl.Map({
       container: "sun3dMap",
       style: "https://tiles.openfreemap.org/styles/liberty",
-      center: [HOME.lng, HOME.lat], zoom: 16.4, pitch: 60, bearing: -20, maxPitch: 80,
-      attributionControl: { compact: true, customAttribution:
-        '<a href="https://openfreemap.org" target="_blank">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> · Terrain: Mapzen / AWS Terrain Tiles' }
+      center: [HOME.lng, HOME.lat], zoom: 17, pitch: 45, bearing: 0, maxPitch: 70,
+      cooperativeGestures: true,
+      attributionControl: { compact: false, customAttribution:
+        '<a href="https://openfreemap.org" target="_blank">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>' }
     });
     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
 
     map.on("load", () => {
+      loading.hidden = true;
       const style = map.getStyle();
       const vec = Object.entries(style.sources).find(([, s]) => s.type === "vector");
       if (vec) srcId = vec[0];
 
-      // Terrain + hill shading (free AWS/Mapzen terrain tiles). Optional: the map works without it.
-      try {
-        const dem = { type: "raster-dem", tiles: ["https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"], encoding: "terrarium", tileSize: 256, maxzoom: 14 };
-        map.addSource("dem-hs", dem);
-        map.addSource("dem-terrain", { ...dem });
-        const firstLine = style.layers.find(l => l.type === "line");
-        map.addLayer({ id: "sun-hillshade", type: "hillshade", source: "dem-hs",
-          paint: { "hillshade-illumination-anchor": "map", "hillshade-exaggeration": 0.55,
-                   "hillshade-shadow-color": "#3a2a1a", "hillshade-highlight-color": "#fff6dc", "hillshade-accent-color": "#5a4430" } },
-          firstLine ? firstLine.id : undefined);
-        map.setTerrain({ source: "dem-terrain", exaggeration: 1 });
-      } catch (e) { /* terrain optional */ }
-
-      // 3D buildings: reuse the style's extrusion layer, or add one.
-      const ext = map.getStyle().layers.find(l => l.type === "fill-extrusion");
+      const ext = style.layers.find(l => l.type === "fill-extrusion");
       if (ext) bldLayer = ext.id;
       else {
         bldLayer = "bldg-3d";
         map.addLayer({ id: bldLayer, type: "fill-extrusion", source: srcId, "source-layer": "building", minzoom: 13,
-          paint: { "fill-extrusion-color": "#e9dfd0", "fill-extrusion-height": ["coalesce", ["get", "render_height"], 6],
-                   "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0], "fill-extrusion-opacity": 0.95 } });
+          paint: { "fill-extrusion-height": ["coalesce", ["get", "render_height"], 6],
+                   "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0] } });
       }
-      map.setPaintProperty(bldLayer, "fill-extrusion-color", "#ece3d5");
+      map.setPaintProperty(bldLayer, "fill-extrusion-color", "#d9cdbd");
+      map.setPaintProperty(bldLayer, "fill-extrusion-opacity", 0.95);
 
       map.addSource("sun-shadows", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
       map.addLayer({ id: "sun-shadows", type: "fill", source: "sun-shadows",
-        paint: { "fill-color": "#1b140e", "fill-opacity": 0.38, "fill-antialias": false } }, bldLayer);
+        paint: { "fill-color": "#4b5563", "fill-opacity": 0.38, "fill-antialias": false } }, bldLayer);
 
-      map.addSource("home-bldg", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
-      map.addLayer({ id: "home-bldg", type: "fill-extrusion", source: "home-bldg",
-        paint: { "fill-extrusion-color": "#e0a23a", "fill-extrusion-height": ["coalesce", ["get", "render_height"], 15],
-                 "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0], "fill-extrusion-opacity": 1 } });
-
-      const el = document.createElement("div"); el.className = "home-marker"; el.title = "Szirtes út 26/B";
-      homeMarker = new maplibregl.Marker({ element: el }).setLngLat([HOME.lng, HOME.lat]).addTo(map);
+      homeMarker = new maplibregl.Marker({ color: "#d93025" }).setLngLat([HOME.lng, HOME.lat]).addTo(map);
 
       update();
-      map.once("idle", () => { highlightHome(); update(); });
-      map.on("moveend", () => update());
+      map.on("moveend", update);
       map.on("sourcedata", e => { if (e.sourceId === srcId && e.isSourceLoaded) update(); });
     });
   }
@@ -550,38 +624,30 @@ const sun3d = (() => {
   function buildings() {
     try { return map.querySourceFeatures(srcId, { sourceLayer: "building" }); } catch (e) { return []; }
   }
-  function highlightHome() {
-    const f = findHomeBuilding(buildings(), HOME);
-    map.getSource("home-bldg").setData({ type: "FeatureCollection",
-      features: f ? [{ type: "Feature", properties: f.properties, geometry: f.geometry }] : [] });
-  }
 
   function render() {
     raf = 0;
     if (!map || !map.isStyleLoaded() || !map.getSource("sun-shadows")) return;
     const s = currentSun();
     const up = s.alt > 0;
-    // Directional light for the 3D buildings: azimuthal = sun bearing, polar = 90° - altitude
-    const warm = s.alt < 12 ? "#ffc98a" : "#fff4df";
+    const warm = s.alt < 12 ? "#ffd2a0" : "#fff6e6";
     map.setLight({ anchor: "map", position: [1.5, s.az, Math.min(89, Math.max(5, 90 - s.alt))],
-      color: up ? warm : "#8090b0", intensity: up ? 0.55 : 0.15 });
-    if (map.getLayer("sun-hillshade")) {
-      map.setPaintProperty("sun-hillshade", "hillshade-illumination-direction", Math.round(s.az) % 360);
-      map.setPaintProperty("sun-hillshade", "hillshade-exaggeration", up ? Math.min(0.85, 0.35 + (25 - Math.min(s.alt, 25)) / 50) : 0.9);
-    }
+      color: up ? warm : "#8090b0", intensity: up ? 0.5 : 0.15 });
     map.getSource("sun-shadows").setData({ type: "FeatureCollection", features: shadowFeatures(buildings(), s, HOME, 900) });
     night.hidden = up;
-    readout.hidden = !up;
-    if (up) readout.textContent = t("sun3d.readout", { time: fmtMin(timeMin), alt: Math.round(s.alt), dir: t("dir." + compass8(s.az)) });
   }
   function update() { if (map && !raf) raf = requestAnimationFrame(render); }
   function moveHome() {
     if (!map) return;
     homeMarker && homeMarker.setLngLat([HOME.lng, HOME.lat]);
     map.jumpTo({ center: [HOME.lng, HOME.lat] });
-    map.once("idle", () => { highlightHome(); update(); });
+    update();
   }
-  document.getElementById("sun3dLoad").addEventListener("click", load);
+  // Load when the section approaches the viewport, so the page itself stays fast.
+  const io = "IntersectionObserver" in window ? new IntersectionObserver(es => {
+    if (es.some(e => e.isIntersecting)) { io.disconnect(); load(); }
+  }, { rootMargin: "400px" }) : null;
+  if (io) io.observe(document.getElementById("sun3d")); else load();
   homeListeners.push(moveHome);
   return { update };
 })();
@@ -601,6 +667,7 @@ const CURATED = [
   { cat: "transit", q: "Búsuló Juhász (Citadella) bus stop, Budapest", en: "Bus 27 · Búsuló Juhász (Citadella)", hu: "27-es busz · Búsuló Juhász (Citadella)" },
   { cat: "transit", q: "Móricz Zsigmond körtér M4 metro station, Budapest", en: "Móricz Zsigmond körtér · M4 and trams", hu: "Móricz Zsigmond körtér · M4 és villamosok" },
   { cat: "transit", q: "Szent Gellért tér – Műegyetem M4 metro station, Budapest", en: "Szent Gellért tér · M4 and trams", hu: "Szent Gellért tér · M4 és villamosok" },
+  { cat: "transit", q: "Sánc utca bus stop, Hegyalja út, Budapest", en: "Sánc utca · buses 110, 112 to the centre; bus 27", hu: "Sánc utca · 110-es, 112-es busz a belvárosba; 27-es busz" },
   { cat: "parks", q: "Citadella, Gellért Hill, Budapest", en: "Citadella", hu: "Citadella", fixed: { lat: C.CITADELLA_LAT, lng: C.CITADELLA_LNG } },
   { cat: "parks", q: "Liberty Statue, Gellért Hill, Budapest", en: "Liberty Statue", hu: "Szabadság-szobor" },
   { cat: "parks", q: "Filozófusok kertje, Gellérthegy, Budapest", en: "Philosophers' Garden", hu: "Filozófusok kertje" },
@@ -657,7 +724,7 @@ async function geocodeHome() {
 }
 
 async function loadPois() {
-  let data = cache.get("places-v1");
+  let data = cache.get("places-v2");
   if (!data) {
     data = { curated: [], dining: [] };
     const { Place } = await G.importLibrary("places");
@@ -679,7 +746,7 @@ async function loadPois() {
         includedPrimaryTypes: ["restaurant", "cafe", "bakery", "supermarket", "grocery_store"], maxResultCount: 15 });
       data.dining = places.filter(p => p.location).map(p => ({ name: p.displayName, lat: p.location.lat(), lng: p.location.lng() }));
     } catch (e) {}
-    cache.set("places-v1", data);
+    cache.set("places-v2", data);
   }
   const iw = new GM.InfoWindow();
   const add = (pos, cat, labelFn) => {
@@ -750,16 +817,20 @@ async function setupStreetView() {
 async function initGoogleMap() {
   const { Map, InfoWindow } = await G.importLibrary("maps");
   const { Marker } = await G.importLibrary("marker");
-  const { Size, Point } = await G.importLibrary("core");
-  Object.assign(GM, { InfoWindow, Marker, Size, Point });
+  const { Size, Point, ControlPosition } = await G.importLibrary("core");
+  Object.assign(GM, { InfoWindow, Marker, Size, Point, ControlPosition });
   const geo = await geocodeHome();
   if (geo) setHome(geo.lat, geo.lng);
+  const CP = GM.ControlPosition || {};
   gmap = new Map(document.getElementById("mapCanvas"), {
-    center: { lat: HOME.lat, lng: HOME.lng }, zoom: 16,
-    mapTypeControl: true, streetViewControl: true, fullscreenControl: true, clickableIcons: false
+    center: { lat: HOME.lat, lng: HOME.lng }, zoom: 16, mapTypeId: "hybrid",
+    mapTypeControl: true, mapTypeControlOptions: { mapTypeIds: ["hybrid", "roadmap"], position: CP.TOP_LEFT },
+    zoomControl: true, zoomControlOptions: { position: CP.RIGHT_CENTER },
+    cameraControl: false, streetViewControl: true, streetViewControlOptions: { position: CP.RIGHT_CENTER },
+    fullscreenControl: true, clickableIcons: true
   });
   homeIw = new InfoWindow();
-  homeMk = new Marker({ position: { lat: HOME.lat, lng: HOME.lng }, map: gmap, zIndex: 999, icon: pinIcon("#d99a2b", 30) });
+  homeMk = new Marker({ position: { lat: HOME.lat, lng: HOME.lng }, map: gmap, zIndex: 999 }); // default red drop pin
   homeMk.addListener("click", () => { homeIw.setContent(homePopupHtml()); homeIw.open(gmap, homeMk); });
   document.getElementById("mapFilters").hidden = false;
   updateMapLang();
@@ -864,6 +935,19 @@ function renderWeather() {
   el.hidden = false;
 }
 
+/* ---------------- Schools (static list, from OpenStreetMap) ---------------- */
+const SCHOOLS = [
+  ["Malvin-ház", "kg", 220], ["Budapest School", "school", 380],
+  ["Magyar Agrár- és Élettudományi Egyetem, Budai Campus", "uni", 650], ["Ádám Jenő Általános Iskola", "school", 730],
+  ["Tigris Utcai Óvoda", "kg", 840], ["Nemzetközi Pető Intézet", "peto", 860],
+  ["Budai Ciszterci Szent Imre Gimnázium", "school", 910], ["Alsóhegy Utcai Óvoda", "kg", 950]
+];
+function renderSchools() {
+  const ul = document.getElementById("schoolList");
+  ul.innerHTML = SCHOOLS.map(([n, k, d]) =>
+    `<li><span><span class="sn">${esc(n)}</span><span class="st">${esc(t("school." + k))}</span></span><span class="sd">${esc(t("school.walk", { m: Math.max(1, Math.round(d / 80)), d }))}</span></li>`).join("");
+}
+
 /* ---------------- Map links ---------------- */
 const addrQ = encodeURIComponent(C.ADDRESS);
 document.getElementById("gmapsLink").href = `https://www.google.com/maps/search/?api=1&query=${addrQ}`;
@@ -887,6 +971,7 @@ function initContact() {
 document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => applyLang(b.dataset.lang)));
 initContact();
 applyLang(detectLang());
+setSeason("today");
 
 if (!KEY) {
   osmFallback();
