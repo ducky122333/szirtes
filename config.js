@@ -3,7 +3,7 @@ window.SITE_CONFIG = {
   // Google Maps JavaScript API key. Leave empty until you have one:
   // the page then shows a free OpenStreetMap map instead.
   // Restrict the key in Google Cloud to your Vercel URL(s) (HTTP referrers).
-  GOOGLE_MAPS_API_KEY: "",
+  GOOGLE_MAPS_API_KEY: "AIzaSyAchlI8GpPJrDEBYvHsUQ94mPRVMlxyYzI",
 
   // Contact details (placeholders — replace before going live)
   CONTACT_NAME: "[Contact name]",
