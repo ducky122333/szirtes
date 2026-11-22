@@ -250,3 +250,14 @@ h3{font-size:1.35rem}
 .cit-wide{margin:2.4rem 0 0}
 .cit-wide img{border-radius:16px;width:100%}
 @media (max-width:900px){.unesco{grid-template-columns:1fr}}
+
+/* round 5 */
+.big-stat{justify-content:center;gap:0}
+.big-stat .num{font:600 4.4rem/1 var(--serif)!important;font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1;margin:0 0 1rem!important;padding-top:.2rem;color:var(--sun-l)}
+.big-stat .unit{margin-top:.2rem}
+.loc-points{grid-template-columns:repeat(3,1fr)}
+.loc-pair{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:-1.4rem auto 2.8rem}
+.loc-pair figure{margin:0}
+.loc-pair img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:14px}
+.loc-pair figcaption{font-size:.82rem;color:#b9c4bd;margin-top:.5rem}
+@media (max-width:700px){.loc-pair{grid-template-columns:1fr}.loc-points{grid-template-columns:1fr}}
