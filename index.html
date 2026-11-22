@@ -51,13 +51,13 @@
     <div class="price-row">
       <div>
         <div class="price" id="price"></div>
-        <div class="price-sub" id="pricePerM2"></div>
       </div>
       <a href="#contact" class="btn" data-i18n="hero.cta"></a>
     </div>
   </div>
   <figure class="hero-img">
     <img src="/img/hero-frontage.webp" srcset="/img/hero-frontage-sm.webp 700w, /img/hero-frontage.webp 1350w" sizes="(max-width: 900px) 100vw, 45vw" alt="" data-i18n-alt="alt.hero" fetchpriority="high">
+    <div class="weather-pill" id="weatherPill" hidden></div>
     <figcaption data-i18n="hero.caption"></figcaption>
   </figure>
 </section>
@@ -144,7 +144,7 @@
         <button data-day="today" data-i18n="sun.today"></button>
       </div>
       <label class="slider"><span data-i18n="sun.time"></span> <output id="timeOut"></output>
-        <input type="range" id="timeSlider" min="0" max="1439" step="5">
+        <input type="range" id="timeSlider" min="360" max="1260" step="5">
       </label>
       <dl class="sun-readout">
         <div><dt data-i18n="sun.sunrise"></dt><dd id="rSunrise"></dd></div>
@@ -155,8 +155,20 @@
     </div>
   </div>
   <div class="sun-chart">
-    <svg id="sunSvg" viewBox="-230 -230 460 460" role="img" aria-labelledby="sunSvgTitle"><title id="sunSvgTitle">Sun path diagram</title></svg>
-    <p class="chart-note" data-i18n="sun.chartNote"></p>
+    <div class="sun3d" id="sun3d">
+      <div class="sun3d-cover" id="sun3dCover">
+        <div>
+          <p class="eyebrow light" data-i18n="sun3d.eyebrow"></p>
+          <h3 data-i18n="sun3d.title"></h3>
+          <p data-i18n="sun3d.text"></p>
+          <button class="btn sun-btn" id="sun3dLoad" type="button" data-i18n="sun3d.button"></button>
+        </div>
+      </div>
+      <div id="sun3dMap"></div>
+      <div class="sun3d-night" id="sun3dNight" hidden data-i18n="sun.below"></div>
+      <div class="sun3d-readout" id="sun3dReadout" hidden></div>
+    </div>
+    <p class="chart-note" data-i18n="sun3d.note"></p>
   </div>
 </section>
 
@@ -164,8 +176,20 @@
 <section id="map" class="section">
   <h2 data-i18n="map.title"></h2>
   <p class="sub" data-i18n="map.sub"></p>
+  <div class="map-filters" id="mapFilters" hidden>
+    <button data-cat="all" class="on" data-i18n="filter.all"></button>
+    <button data-cat="transit" data-i18n="filter.transit"></button>
+    <button data-cat="parks" data-i18n="filter.parks"></button>
+    <button data-cat="dining" data-i18n="filter.dining"></button>
+  </div>
   <div class="map-wrap"><div id="mapCanvas"></div></div>
-  <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
+  <div class="map-below">
+    <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
+    <button class="sv-thumb" id="svThumb" type="button" hidden>
+      <img id="svImg" alt="">
+      <span data-i18n="sv.label"></span>
+    </button>
+  </div>
 
   <div class="nearby">
     <div>
@@ -195,6 +219,31 @@
       </ul>
     </div>
   </div>
+</section>
+
+<!-- AIR QUALITY -->
+<section id="air" class="section air" hidden>
+  <div class="elev-badge" id="elevBadge" hidden></div>
+  <p class="eyebrow" data-i18n="air.eyebrow"></p>
+  <h2 data-i18n="air.title"></h2>
+  <div class="aq-cards">
+    <article class="aq-card home" id="aqHome">
+      <span class="aq-tag" data-i18n="air.homeTag"></span>
+      <h3 data-i18n="air.homeName"></h3>
+      <div class="aq-num"><span class="v"></span><span class="of">/100</span></div>
+      <div class="aq-cat"></div>
+      <div class="aq-pol"></div>
+    </article>
+    <article class="aq-card" id="aqCity">
+      <span class="aq-tag muted" data-i18n="air.cityTag"></span>
+      <h3 class="aq-place"></h3>
+      <div class="aq-num"><span class="v"></span><span class="of">/100</span></div>
+      <div class="aq-cat"></div>
+      <div class="aq-pol"></div>
+    </article>
+  </div>
+  <p class="aq-caption" id="aqCaption"></p>
+  <p class="aq-foot" id="aqFoot"></p>
 </section>
 
 <!-- CONTACT -->
@@ -234,6 +283,7 @@
   <p id="lbCap"></p>
 </div>
 
+<script src="https://unpkg.com/suncalc@1.9.0/suncalc.js"></script>
 <script src="/app.js"></script>
 </body>
 </html>

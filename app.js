@@ -8,22 +8,22 @@ en: {
   "nav.location":"Location","nav.gallery":"Photos","nav.details":"Details","nav.sun":"Sunlight","nav.map":"Map","nav.contact":"Contact",
   "hero.eyebrow":"For sale · Gellért Hill · Budapest District I",
   "hero.title":"Bright, spacious apartment in a garden of mature trees — 3 minutes from the Citadella",
-  "hero.lead":"82 m² on the second floor of a gated garden complex on Gellért Hill, with a south-facing terrace overlooking Verejték Park and the Citadella promenade.",
+  "hero.lead":"82 m² on the second floor of a gated garden court on Gellért Hill, with a south-facing terrace overlooking Verejték Park and the Citadella promenade.",
   "hero.cta":"Arrange a viewing",
   "hero.caption":"The apartment is circled in red: 2nd floor, at the end of the building.",
   "fact.area":"floor area","fact.bedrooms":"bedrooms","fact.baths":"bathrooms + WC","fact.floorVal":"2nd","fact.floor":"floor","fact.terraceVal":"South","fact.terrace":"facing terrace",
   "loc.minutes":"minutes' walk to the Citadella",
   "loc.eyebrow":"Location",
   "loc.title":"Next door to Budapest's most famous viewpoint",
-  "loc.text":"The Citadella and the Liberty Statue crown Gellért Hill, high above the Danube. From Szirtes út it is a 3-minute walk to the Citadella promenade and its sweeping panorama of the bridges, Buda Castle and Parliament, yet the complex itself is a quiet, gated garden among old trees.",
+  "loc.text":"The Citadella and the Liberty Statue crown Gellért Hill, high above the Danube. From Szirtes út it is a 3-minute walk to the Citadella promenade and its sweeping panorama of the bridges, Buda Castle and Parliament, yet the garden court itself is quiet and gated, among old trees.",
   "loc.aerialCaption":"The red arrow marks the property, just behind the Citadella on Gellért Hill.",
   "loc.p1t":"3 minutes to the Citadella","loc.p1":"Walks on the Citadella promenade and the paths of Gellért Hill start at your gate.",
-  "loc.p2t":"Green and quiet","loc.p2":"A fenced complex in a large garden of mature trees, with parking inside the grounds.",
+  "loc.p2t":"Green and quiet","loc.p2":"A fenced residential courtyard in a large garden of mature trees, with parking inside the grounds.",
   "loc.p3t":"Central, yet secluded","loc.p3":"The Danube, the Gellért Baths and Elizabeth Bridge are within walking distance downhill; Pest's city centre is just across the river.",
   "loc.p4t":"Well connected","loc.p4":"Bus 27 stops on Szirtes út and runs to Móricz Zsigmond körtér for metro line M4 and trams.",
   "gallery.title":"Photos",
   "details.title":"About the apartment",
-  "desc.p1":"We are offering for sale an apartment with exceptional qualities in a gated, fenced residential complex, just a few minutes' walk from the Citadella. The property is surrounded by a large garden full of mature trees, with parking available on site.",
+  "desc.p1":"We are offering for sale an apartment with exceptional qualities in a gated, fenced residential courtyard, just a few minutes' walk from the Citadella. The property is surrounded by a large garden full of mature trees, with parking available on site.",
   "desc.p2":"The apartment is on the 2nd floor of the building. Its south-facing terrace offers a beautiful panorama over Verejték Park and the Citadella promenade. Windows facing three directions give the home its special atmosphere: sunlight fills the rooms all day long. Set at the end of the building, the apartment is exceptionally bright and pleasant to live in.",
   "desc.p3":"The living room, both bedrooms and the hallway have oak parquet floors renovated a few years ago, while the dining room, kitchen and bathrooms are tiled.",
   "desc.p4":"Two bathrooms add comfort: one with a corner bathtub, WC and double sink, the other with a shower. There is also a separate WC.",
@@ -31,7 +31,7 @@ en: {
   "desc.extrasTitle":"Further advantages",
   "desc.x1":"Shared storage in the basement",
   "desc.x2":"Separate bicycle and pram storage",
-  "desc.x3":"Parking within the fenced complex",
+  "desc.x3":"Parking within the fenced garden court",
   "desc.p6":"This property is an ideal choice for anyone looking for a bright, comfortable home in green surroundings with an outstanding location.",
   "spec.title":"Key facts","spec.price":"Price","spec.area":"Floor area","spec.rooms":"Rooms","spec.roomsVal":"2 bedrooms, living room, dining room, kitchen, hallway",
   "spec.baths":"Bathrooms","spec.bathsVal":"2 (corner bath / shower) + separate WC",
@@ -41,18 +41,17 @@ en: {
   "spec.floors":"Flooring","spec.floorsVal":"Renovated oak parquet; tiles in kitchen, dining room and bathrooms",
   "spec.heating":"Heating","spec.heatingVal":"Gas combi boiler (heating + hot water)",
   "spec.water":"Water","spec.waterVal":"Own water meter",
-  "spec.parking":"Parking","spec.parkingVal":"Inside the gated complex",
+  "spec.parking":"Parking","spec.parkingVal":"Inside the gated garden court",
   "spec.storage":"Storage","spec.storageVal":"Basement storage; bicycle and pram storage",
   "spec.address":"Address",
   "sun.eyebrow":"Sunlight",
   "sun.title":"A sunny terrace in every season",
   "sun.p1":"The terrace faces south, and windows on three sides let the sun travel through the apartment from morning to evening.",
   "sun.p2":"In Budapest the midday sun stands only about 19° above the horizon in December, low enough that many city apartments lose it behind the building opposite. Set high on the slope of Gellért Hill, at the end of its block, this apartment has an open southern outlook, so even the low winter sun reaches the terrace and pours into the rooms.",
-  "sun.p3":"Pick a season and drag the time slider to follow the sun across the sky above the apartment. The gold wedge shows the direction the terrace faces.",
+  "sun.p3":"Open the 3D view, pick a season and drag the time slider to watch sunlight and shadows move across the building and Gellért Hill.",
   "sun.winter":"Winter","sun.equinox":"Spring / autumn","sun.summer":"Summer","sun.today":"Today",
   "sun.time":"Time:","sun.sunrise":"Sunrise","sun.sunset":"Sunset","sun.daylight":"Daylight","sun.noonAlt":"Midday sun",
-  "sun.chartNote":"Sun path for Budapest (47.5° N), seen from above. Rings show the sun's height above the horizon. Nearby trees and buildings are not modelled.",
-  "sun.terraceLabel":"Terrace","sun.N":"N","sun.E":"E","sun.S":"S","sun.W":"W","sun.below":"Sun below horizon",
+  "sun.N":"N","sun.E":"E","sun.S":"S","sun.W":"W","sun.below":"Sun below horizon",
   "map.title":"Map and neighbourhood",
   "map.sub":"Distances are approximate. Families should confirm school catchment areas with the district.",
   "map.open":"Open in Google Maps","map.walk":"Walking route to the Citadella",
@@ -80,31 +79,52 @@ en: {
   "footer.disclaimer":"Details are provided by the seller and believed accurate but are not guaranteed and do not form part of any contract. Floor area is approximate.",
   "alt.hero":"Szirtes út 26/B seen from the street among trees, the apartment circled in red",
   "alt.aerial":"Aerial view of Gellért Hill, the Citadella and the Danube, with an arrow marking the property",
-  "unit.perM2":"≈ {v} million HUF / m²",
   "g.balconySunset":"Terrace at sunset","g.balconyDay":"South-facing terrace","g.bedroom":"Bedroom","g.garden":"The garden",
   "g.kitchen":"Kitchen","g.dining":"Dining room","g.bathTub":"Bathroom with corner bath","g.bathSinks":"Bathroom with double sink","g.street":"Szirtes út",
-  "dur":"{h} h {m} min"
+  "dur":"{h} h {m} min",
+  "sun3d.eyebrow":"Interactive","sun3d.title":"Explore 3D sun & shadows",
+  "sun3d.text":"See the building and its neighbours on Gellért Hill in 3D, and watch where sunlight and shadows fall at any time of year.",
+  "sun3d.button":"Load 3D view",
+  "sun3d.note":"Approximate simulation. Building shadows assume level ground and trees are not modelled; hill shading comes from a terrain model. Map: OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors.",
+  "sun3d.fail":"The 3D view could not be loaded. Please try again later.",
+  "sun3d.readout":"{time} · sun {alt}° high, from the {dir}",
+  "dir.N":"north","dir.NE":"north-east","dir.E":"east","dir.SE":"south-east","dir.S":"south","dir.SW":"south-west","dir.W":"west","dir.NW":"north-west",
+  "filter.all":"All","filter.transit":"Public transit","filter.parks":"Parks & viewpoints","filter.dining":"Dining & groceries",
+  "sv.label":"Street View: click to explore",
+  "pin.elev":"Elevation: {e} m","pin.diff":"+{d} m higher than downtown ({place})",
+  "air.eyebrow":"Air quality & environment","air.title":"Fresher air above the city",
+  "air.homeTag":"This property · hilltop","air.homeName":"Szirtes út 26/B",
+  "air.cityTag":"City centre below",
+  "air.elevBadge":"▲ {e} m above sea level · +{d} m higher than downtown",
+  "air.capBetter":"Today the hilltop scores {d} points better than {place}. Set high above downtown, among mature trees and away from through-traffic, the garden court enjoys fresher air above the city below.",
+  "air.capClose":"Readings are close today; a breezy day clears the air across the whole city. Day to day, the hilltop's elevation, its greenery and its distance from heavy traffic remain lasting advantages.",
+  "air.capNeutral":"Live readings for both locations, for comparison.",
+  "air.foot":"Live data from Google Air Quality, Universal AQI (0–100, higher means cleaner air). Downtown location: the lowest-scoring of several central Pest points at the time of checking. Updated {time}.",
+  "air.dominant":"Main pollutant: {p}",
+  "aq.5":"Excellent","aq.4":"Good","aq.3":"Moderate","aq.2":"Low","aq.1":"Poor",
+  "wx.place":"Gellért Hill","wx.wind":"wind {s} km/h {d}",
+  "map.dining":"Nearby"
 },
 hu: {
   "nav.location":"Elhelyezkedés","nav.gallery":"Fotók","nav.details":"Részletek","nav.sun":"Napfény","nav.map":"Térkép","nav.contact":"Kapcsolat",
   "hero.eyebrow":"Eladó · Gellérthegy · Budapest I. kerület",
-  "hero.title":"Világos, tágas lakás ősfás lakóparkban, a Citadellától mindössze 3 percre",
-  "hero.lead":"82 m²-es lakás egy zárt, ősfás lakópark 2. emeletén a Gellérthegyen, déli fekvésű terasszal, kilátással a Verejték parkra és a Citadella sétányra.",
+  "hero.title":"Világos, tágas lakás ősfás lakóudvarban, a Citadellától mindössze 3 percre",
+  "hero.lead":"82 m²-es lakás egy zárt, ősfás lakóudvar 2. emeletén a Gellérthegyen, déli fekvésű terasszal, kilátással a Verejték parkra és a Citadella sétányra.",
   "hero.cta":"Megtekintés egyeztetése",
   "hero.caption":"A lakást piros kör jelöli: 2. emelet, az épület szélén.",
   "fact.area":"alapterület","fact.bedrooms":"hálószoba","fact.baths":"fürdőszoba + WC","fact.floorVal":"2.","fact.floor":"emelet","fact.terraceVal":"Déli","fact.terrace":"fekvésű terasz",
   "loc.minutes":"perc séta a Citadelláig",
   "loc.eyebrow":"Elhelyezkedés",
   "loc.title":"Budapest leghíresebb kilátópontjának szomszédságában",
-  "loc.text":"A Citadella és a Szabadság-szobor a Gellérthegy csúcsán, magasan a Duna fölött áll. A Szirtes útról mindössze 3 perc séta a Citadella sétány, ahonnan az egész város, a hidak, a budai Vár és a Parlament látható, maga a lakópark pedig csendes, zárt kert az ősfák között.",
+  "loc.text":"A Citadella és a Szabadság-szobor a Gellérthegy csúcsán, magasan a Duna fölött áll. A Szirtes útról mindössze 3 perc séta a Citadella sétány, ahonnan az egész város, a hidak, a budai Vár és a Parlament látható, maga a lakóudvar pedig csendes, zárt kert az ősfák között.",
   "loc.aerialCaption":"A piros nyíl az ingatlant jelöli, közvetlenül a Citadella mögött a Gellérthegyen.",
   "loc.p1t":"3 perc a Citadella","loc.p1":"A Citadella sétány és a Gellérthegy ösvényei a kapu előtt kezdődnek.",
-  "loc.p2t":"Zöld és csendes","loc.p2":"Bekerített lakópark hatalmas, ősfás kertben, parkolási lehetőséggel a területen belül.",
+  "loc.p2t":"Zöld és csendes","loc.p2":"Bekerített lakóudvar hatalmas, ősfás kertben, parkolási lehetőséggel a területen belül.",
   "loc.p3t":"Központi, mégis elvonult","loc.p3":"A Duna-part, a Gellért fürdő és az Erzsébet híd gyalog is elérhető lefelé a hegyről; a pesti belváros a folyó túlpartján van.",
   "loc.p4t":"Jó közlekedés","loc.p4":"A 27-es busz a Szirtes úton is megáll, és a Móricz Zsigmond körtérre visz (M4-es metró, villamosok).",
   "gallery.title":"Fotók",
   "details.title":"A lakásról",
-  "desc.p1":"Eladásra kínálunk egy kivételes adottságokkal rendelkező lakást egy zárt, bekerített lakóparkban, mindössze néhány perces sétára a Citadellától. Az ingatlant egy hatalmas, ősfákkal tarkított kert veszi körül, ahol parkolási lehetőség is biztosított.",
+  "desc.p1":"Eladásra kínálunk egy kivételes adottságokkal rendelkező lakást egy zárt, bekerített lakóudvarban, mindössze néhány perces sétára a Citadellától. Az ingatlant egy hatalmas, ősfákkal tarkított kert veszi körül, ahol parkolási lehetőség is biztosított.",
   "desc.p2":"A lakás a társasház 2. emeletén található, és déli fekvésű teraszáról gyönyörű panoráma nyílik a Verejték parkra és a Citadella sétányra. Különleges hangulatát a három égtáj felé tájolt ablakok adják, amelyeknek köszönhetően a napfény egész nap beragyogja az otthont. A lakás az épülettömb szélén helyezkedik el, így rendkívül világos és kellemes életteret biztosít.",
   "desc.p3":"A nappaliban, a két hálószobában és az előtérben néhány éve felújított tölgyfa parketta található, míg az étkezőben, a konyhában és a fürdőszobákban járólap burkolat került kialakításra.",
   "desc.p4":"A kényelmet két fürdőszoba szolgálja: az egyik sarokkáddal, WC-vel és dupla mosdóval, a másik zuhanyzóval felszerelt, és egy különálló WC is rendelkezésre áll.",
@@ -112,7 +132,7 @@ hu: {
   "desc.extrasTitle":"További előnyök",
   "desc.x1":"Közös tároló a pincében",
   "desc.x2":"Külön kerékpár- és babakocsitároló",
-  "desc.x3":"Parkolási lehetőség a bekerített lakópark területén",
+  "desc.x3":"Parkolási lehetőség a bekerített lakóudvar területén",
   "desc.p6":"Ez az ingatlan ideális választás mindazok számára, akik zöld környezetben, mégis kiváló elhelyezkedéssel rendelkező, világos és kényelmes otthont keresnek.",
   "spec.title":"Főbb adatok","spec.price":"Vételár","spec.area":"Alapterület","spec.rooms":"Helyiségek","spec.roomsVal":"2 hálószoba, nappali, étkező, konyha, előszoba",
   "spec.baths":"Fürdőszobák","spec.bathsVal":"2 (sarokkád / zuhanyzó) + külön WC",
@@ -122,18 +142,17 @@ hu: {
   "spec.floors":"Burkolat","spec.floorsVal":"Felújított tölgyparketta; járólap a konyhában, étkezőben és fürdőkben",
   "spec.heating":"Fűtés","spec.heatingVal":"Gázcirkó (fűtés + melegvíz)",
   "spec.water":"Víz","spec.waterVal":"Saját vízóra",
-  "spec.parking":"Parkolás","spec.parkingVal":"A zárt lakópark területén",
+  "spec.parking":"Parkolás","spec.parkingVal":"A zárt lakóudvar területén",
   "spec.storage":"Tárolás","spec.storageVal":"Pincei tároló; kerékpár- és babakocsitároló",
   "spec.address":"Cím",
   "sun.eyebrow":"Napfény",
   "sun.title":"Napos terasz minden évszakban",
   "sun.p1":"A terasz déli fekvésű, a három égtáj felé néző ablakokon át pedig reggeltől estig végigvándorol a napfény a lakáson.",
   "sun.p2":"Budapesten decemberben délben mindössze kb. 19°-kal jár a nap a horizont felett, ezért sok városi lakásból a szemközti épület eltakarja. Ez a lakás a Gellérthegy oldalában, magasan, az épülettömb szélén fekszik, déli irányban nyitott kilátással, így a téli, alacsonyan járó nap is besüt a teraszra és a szobákba.",
-  "sun.p3":"Válasszon évszakot, és a csúszkával kövesse a nap útját a lakás felett. Az arany cikk a terasz tájolását mutatja.",
+  "sun.p3":"Nyissa meg a 3D nézetet, válasszon évszakot, és a csúszkával kövesse, hogyan vándorol a napfény és az árnyék az épületen és a Gellérthegyen.",
   "sun.winter":"Tél","sun.equinox":"Tavasz / ősz","sun.summer":"Nyár","sun.today":"Ma",
   "sun.time":"Időpont:","sun.sunrise":"Napkelte","sun.sunset":"Napnyugta","sun.daylight":"Nappal","sun.noonAlt":"Déli napmagasság",
-  "sun.chartNote":"A nap pályája Budapest felett (é. sz. 47,5°), felülnézetből. A körök a nap horizont feletti magasságát jelölik. A közeli fákat és épületeket a diagram nem veszi figyelembe.",
-  "sun.terraceLabel":"Terasz","sun.N":"É","sun.E":"K","sun.S":"D","sun.W":"Ny","sun.below":"A nap a horizont alatt",
+  "sun.N":"É","sun.E":"K","sun.S":"D","sun.W":"Ny","sun.below":"A nap a horizont alatt",
   "map.title":"Térkép és környék",
   "map.sub":"A távolságok tájékoztató jellegűek. Az iskolai körzetekről érdemes a kerületnél tájékozódni.",
   "map.open":"Megnyitás a Google Térképen","map.walk":"Gyalogos útvonal a Citadellához",
@@ -161,18 +180,59 @@ hu: {
   "footer.disclaimer":"Az adatokat az eladó szolgáltatta; pontosságukra törekszünk, de azokért felelősséget nem vállalunk, és nem képezik szerződés részét. Az alapterület tájékoztató jellegű.",
   "alt.hero":"A Szirtes út 26/B épülete az utcáról, fák között, a lakás piros körrel jelölve",
   "alt.aerial":"Légifotó a Gellérthegyről, a Citadelláról és a Dunáról, nyíllal jelölve az ingatlant",
-  "unit.perM2":"≈ {v} millió Ft / m²",
   "g.balconySunset":"Terasz naplementekor","g.balconyDay":"Déli fekvésű terasz","g.bedroom":"Hálószoba","g.garden":"A kert",
   "g.kitchen":"Konyha","g.dining":"Étkező","g.bathTub":"Fürdőszoba sarokkáddal","g.bathSinks":"Fürdőszoba dupla mosdóval","g.street":"Szirtes út",
-  "dur":"{h} óra {m} perc"
+  "dur":"{h} óra {m} perc",
+  "sun3d.eyebrow":"Interaktív","sun3d.title":"3D nap- és árnyékszimulátor",
+  "sun3d.text":"Nézze meg az épületet és környezetét 3D-ben a Gellérthegyen, és kövesse, hová esik a napfény és az árnyék az év bármely napján.",
+  "sun3d.button":"3D nézet betöltése",
+  "sun3d.note":"Tájékoztató jellegű szimuláció. Az épületárnyékok sík terepet feltételeznek, a fákat a modell nem tartalmazza; a domborzat árnyékolása terepmodellből származik. Térkép: OpenFreeMap © OpenMapTiles, adatok © OpenStreetMap közreműködők.",
+  "sun3d.fail":"A 3D nézet nem tölthető be. Kérjük, próbálja később.",
+  "sun3d.readout":"{time} · napmagasság {alt}°, {dir} felől",
+  "dir.N":"észak","dir.NE":"északkelet","dir.E":"kelet","dir.SE":"délkelet","dir.S":"dél","dir.SW":"délnyugat","dir.W":"nyugat","dir.NW":"északnyugat",
+  "filter.all":"Mind","filter.transit":"Tömegközlekedés","filter.parks":"Parkok, kilátók","filter.dining":"Étkezés, bevásárlás",
+  "sv.label":"Utcakép: kattintson a bejáráshoz",
+  "pin.elev":"Tengerszint feletti magasság: {e} m","pin.diff":"+{d} m-rel magasabban, mint a belváros ({place})",
+  "air.eyebrow":"Levegőminőség és környezet","air.title":"Tisztább levegő a város felett",
+  "air.homeTag":"Az ingatlan · hegytető","air.homeName":"Szirtes út 26/B",
+  "air.cityTag":"Belváros, lent",
+  "air.elevBadge":"▲ {e} m tengerszint felett · +{d} m-rel a belváros felett",
+  "air.capBetter":"Ma a hegyi helyszín {d} ponttal jobb értéket mutat, mint a belvárosi mérési pont ({place}). A belváros fölött, ősfák között, az átmenő forgalomtól távol a lakóudvar levegője frissebb, mint a lenti városé.",
+  "air.capClose":"Ma közel azonosak az értékek; szeles napokon az egész város levegője kitisztul. A hegyi fekvés, a sok zöld és a forgalmas utaktól való távolság azonban tartós előny.",
+  "air.capNeutral":"Élő mérési adatok mindkét helyszínre, összehasonlításként.",
+  "air.foot":"Élő adatok: Google Air Quality, Universal AQI (0–100, a magasabb érték tisztább levegőt jelent). Belvárosi helyszín: több belső-pesti pont közül a lekérdezéskor leggyengébb értékű. Frissítve: {time}.",
+  "air.dominant":"Fő szennyező: {p}",
+  "aq.5":"Kiváló","aq.4":"Jó","aq.3":"Közepes","aq.2":"Gyenge","aq.1":"Rossz",
+  "wx.place":"Gellérthegy","wx.wind":"szél {s} km/h {d}",
+  "map.dining":"A közelben"
 }};
 
 let lang = "en";
 const t = (k, vars) => {
   let s = (T[lang] && T[lang][k]) ?? T.en[k] ?? k;
-  if (vars) for (const v in vars) s = s.replace("{" + v + "}", vars[v]);
+  if (vars) for (const v in vars) s = s.split("{" + v + "}").join(vars[v]);
   return s;
 };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const KEY = (C.GOOGLE_MAPS_API_KEY || "").trim();
+
+/* Session cache (sessionStorage, with optional max age) */
+const cache = {
+  get(k, maxAgeMin) {
+    try {
+      const v = JSON.parse(sessionStorage.getItem("sz:" + k));
+      if (!v) return null;
+      if (maxAgeMin && Date.now() - v.t > maxAgeMin * 60000) return null;
+      return v.d;
+    } catch (e) { return null; }
+  },
+  set(k, d) { try { sessionStorage.setItem("sz:" + k, JSON.stringify({ t: Date.now(), d })); } catch (e) {} }
+};
+
+/* Property location: config value until Google geocoding refines it */
+const HOME = { lat: C.PROPERTY_LAT, lng: C.PROPERTY_LNG };
+const homeListeners = [];
+function setHome(lat, lng) { HOME.lat = lat; HOME.lng = lng; homeListeners.forEach(f => f()); }
 
 function detectLang() {
   const p = location.pathname.replace(/\/+$/, "");
@@ -195,9 +255,11 @@ function applyLang(l) {
     ? "Szirtes út 26/B — Eladó lakás a Citadella mellett, Budapest"
     : "Szirtes út 26/B — Apartment for sale by the Citadella, Budapest";
   try { localStorage.setItem("lang", l); } catch (e) {}
-  const p = location.pathname.replace(/\/(en|hu)\/?$/, "/");
-  history.replaceState(null, "", (p === "/" ? "/" : p.replace(/\/?$/, "/")) + l + location.hash);
-  renderPrice(); renderGallery(); drawSun(); updateMapLabels();
+  if (location.protocol.startsWith("http")) {
+    const p = location.pathname.replace(/\/(en|hu)\/?$/, "/");
+    history.replaceState(null, "", p.replace(/\/?$/, "/") + l + location.hash);
+  }
+  renderPrice(); renderGallery(); updateSunUI(); updateMapLang(); renderAir(); renderWeather();
 }
 
 /* ---------------- Price ---------------- */
@@ -205,10 +267,8 @@ function renderPrice() {
   const fmt = lang === "hu"
     ? new Intl.NumberFormat("hu-HU").format(C.PRICE_HUF) + " Ft"
     : new Intl.NumberFormat("en-GB").format(C.PRICE_HUF) + " HUF";
-  const per = (C.PRICE_HUF / C.AREA_M2 / 1e6).toLocaleString(lang === "hu" ? "hu-HU" : "en-GB", { maximumFractionDigits: 2 });
   document.getElementById("price").textContent = fmt;
   document.getElementById("specPrice").textContent = fmt;
-  document.getElementById("pricePerM2").textContent = t("unit.perM2", { v: per });
 }
 
 /* ---------------- Gallery + lightbox ---------------- */
@@ -231,7 +291,7 @@ function renderGallery() {
   PHOTOS.forEach(([f, k, cls], i) => {
     const b = document.createElement("button");
     if (cls) b.className = cls;
-    b.innerHTML = `<img src="/img/${f}-sm.webp" alt="${t(k)}" loading="lazy"><span class="cap">${t(k)}</span>`;
+    b.innerHTML = `<img src="/img/${f}-sm.webp" alt="${esc(t(k))}" loading="lazy"><span class="cap">${esc(t(k))}</span>`;
     b.addEventListener("click", () => openLb(i));
     g.appendChild(b);
   });
@@ -252,9 +312,10 @@ document.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") openLb(lbI + 1);
 });
 
-/* ---------------- Sun path ---------------- */
-const RAD = Math.PI / 180, LAT = 47.497, LNG = 19.040;
-function sunPos(ms) {
+/* ---------------- Sun maths ---------------- */
+const RAD = Math.PI / 180;
+// Fallback solar position (used only if SunCalc failed to load). Returns degrees, azimuth = bearing from north.
+function sunPosFallback(ms, LAT, LNG) {
   const d = ms / 86400000 + 2440587.5 - 2451545.0;
   const g = (357.529 + 0.98560028 * d) * RAD;
   const q = 280.459 + 0.98564736 * d;
@@ -266,11 +327,17 @@ function sunPos(ms) {
   const H = (gmst * 15 + LNG) * RAD - ra;
   const lat = LAT * RAD;
   const alt = Math.asin(Math.sin(lat) * Math.sin(dec) + Math.cos(lat) * Math.cos(dec) * Math.cos(H));
-  let az = Math.atan2(-Math.sin(H), Math.tan(dec) * Math.cos(lat) - Math.sin(lat) * Math.cos(H));
-  az = (az / RAD + 360) % 360;
-  return { alt: alt / RAD, az };
+  const az = Math.atan2(-Math.sin(H), Math.tan(dec) * Math.cos(lat) - Math.sin(lat) * Math.cos(H));
+  return { alt: alt / RAD, az: (az / RAD + 360) % 360 };
 }
-// Budapest UTC offset (minutes) at a given instant
+function sunAt(ms) {
+  if (window.SunCalc) {
+    const p = SunCalc.getPosition(new Date(ms), HOME.lat, HOME.lng);
+    // SunCalc azimuth: radians from south, clockwise towards west
+    return { alt: p.altitude / RAD, az: (p.azimuth / RAD + 180 + 360) % 360 };
+  }
+  return sunPosFallback(ms, HOME.lat, HOME.lng);
+}
 function bpOffset(ms) {
   const parts = new Intl.DateTimeFormat("en-US", { timeZone: "Europe/Budapest", hourCycle: "h23",
     year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).formatToParts(new Date(ms));
@@ -281,6 +348,7 @@ function localToUtc(y, m, d, minutes) {
   const guess = Date.UTC(y, m, d) + minutes * 60000;
   return guess - bpOffset(guess - 60 * 60000) * 60000;
 }
+const bpMinutes = ms => { const o = bpOffset(ms); const x = new Date(ms + o * 60000); return x.getUTCHours() * 60 + x.getUTCMinutes(); };
 function seasonDate(key) {
   const now = new Date(), y = now.getFullYear();
   if (key === "winter") return [y, 11, 21];
@@ -289,118 +357,518 @@ function seasonDate(key) {
   const p = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Budapest" }).format(now).split("-");
   return [+p[0], +p[1] - 1, +p[2]];
 }
-function dayTrack(y, m, d) {
-  const pts = []; let rise = null, set = null, noonAlt = -90, prev = null;
+const fmtMin = m => m == null ? "–" : String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(Math.round(m % 60)).padStart(2, "0");
+function dayInfo(y, m, d) {
+  if (window.SunCalc) {
+    const tm = SunCalc.getTimes(new Date(localToUtc(y, m, d, 720)), HOME.lat, HOME.lng);
+    const ok = x => x instanceof Date && !isNaN(x);
+    return {
+      rise: ok(tm.sunrise) ? bpMinutes(+tm.sunrise) : null,
+      set: ok(tm.sunset) ? bpMinutes(+tm.sunset) : null,
+      noonAlt: ok(tm.solarNoon) ? sunAt(+tm.solarNoon).alt : null
+    };
+  }
+  let rise = null, set = null, noonAlt = -90, prev = null;
   for (let min = 0; min <= 1440; min += 2) {
-    const s = sunPos(localToUtc(y, m, d, min));
+    const s = sunAt(localToUtc(y, m, d, min));
     if (prev && prev.alt < -0.833 && s.alt >= -0.833) rise = min;
     if (prev && prev.alt >= -0.833 && s.alt < -0.833) set = min;
     if (s.alt > noonAlt) noonAlt = s.alt;
-    pts.push({ min, ...s }); prev = s;
+    prev = s;
   }
-  return { pts, rise, set, noonAlt };
+  return { rise, set, noonAlt };
 }
-const R = 190;
-const xy = (alt, az) => { const r = R * (90 - Math.max(alt, 0)) / 90; return [r * Math.sin(az * RAD), -r * Math.cos(az * RAD)]; };
-const fmtMin = m => m == null ? "–" : String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(Math.round(m % 60)).padStart(2, "0");
-let season = "winter", timeMin = 12 * 60;
+const compass8 = az => ["N", "NE", "E", "SE", "S", "SW", "W", "NW"][Math.round(az / 45) % 8];
 
-function pathD(pts) {
-  let d = "", on = false;
-  pts.forEach(p => {
-    if (p.alt < 0) { on = false; return; }
-    const [x, y] = xy(p.alt, p.az); d += (on ? "L" : "M") + x.toFixed(1) + " " + y.toFixed(1); on = true;
-  });
-  return d;
-}
-function drawSun() {
-  const svg = document.getElementById("sunSvg"); if (!svg) return;
+let season = "winter", timeMin = 12 * 60;
+function currentSun() { const [y, m, d] = seasonDate(season); return sunAt(localToUtc(y, m, d, timeMin)); }
+
+function updateSunUI() {
   const [y, m, d] = seasonDate(season);
-  const track = dayTrack(y, m, d);
-  const ref = { winter: dayTrack(y, 11, 21), equinox: dayTrack(y, 2, 20), summer: dayTrack(y, 5, 21) };
-  // terrace wedge: south-facing, ±45°
-  const w = (a) => [R * Math.sin(a * RAD), -R * Math.cos(a * RAD)];
-  const [ax, ay] = w(135), [bx, by] = w(225);
-  let s = `<title id="sunSvgTitle">Sun path diagram</title>
-  <defs><radialGradient id="sky"><stop offset="0" stop-color="#5b4128"/><stop offset="1" stop-color="#2d2118"/></radialGradient></defs>
-  <circle r="${R}" fill="url(#sky)" stroke="#a7825a" stroke-width="1.5"/>
-  <path d="M0 0 L${ax} ${ay} A${R} ${R} 0 0 1 ${bx} ${by} Z" fill="#d99a2b" opacity=".22"/>
-  <text x="0" y="${R * .42}" text-anchor="middle" fill="#f4d79b" font-size="13" font-weight="600">${t("sun.terraceLabel")}</text>`;
-  [30, 60].forEach(a => { s += `<circle r="${R * (90 - a) / 90}" fill="none" stroke="#a7825a" stroke-opacity=".35" stroke-dasharray="3 5"/>
-    <text x="4" y="${-R * (90 - a) / 90 - 4}" fill="#cdb796" font-size="10">${a}°</text>`; });
-  s += `<line x1="${-R}" y1="0" x2="${R}" y2="0" stroke="#a7825a" stroke-opacity=".3"/><line x1="0" y1="${-R}" x2="0" y2="${R}" stroke="#a7825a" stroke-opacity=".3"/>`;
-  [["N", 0, -R - 14], ["S", 0, R + 24], ["E", R + 18, 5], ["W", -R - 18, 5]].forEach(([k, x, yy]) => {
-    s += `<text x="${x}" y="${yy}" text-anchor="middle" fill="#f6ecdc" font-size="15" font-weight="600">${t("sun." + k)}</text>`; });
-  Object.entries(ref).forEach(([k, tr]) => {
-    s += `<path d="${pathD(tr.pts)}" fill="none" stroke="#f4d79b" stroke-opacity="${k === season ? 0 : .3}" stroke-width="1.5"/>`; });
-  s += `<path d="${pathD(track.pts)}" fill="none" stroke="#ffcf6b" stroke-width="3.5" stroke-linecap="round"/>`;
-  // hour ticks on selected path
-  track.pts.filter(p => p.min % 120 === 0 && p.alt > 0).forEach(p => {
-    const [x, yy] = xy(p.alt, p.az);
-    s += `<circle cx="${x}" cy="${yy}" r="2.5" fill="#ffcf6b"/><text x="${x}" y="${yy - 7}" text-anchor="middle" fill="#f1e3cc" font-size="9">${p.min / 60}h</text>`; });
-  // building
-  s += `<rect x="-9" y="-9" width="18" height="18" rx="2" fill="#f6ecdc"/>`;
-  // current sun
-  const cur = sunPos(localToUtc(y, m, d, timeMin));
-  if (cur.alt > 0) {
-    const [x, yy] = xy(cur.alt, cur.az);
-    s += `<line x1="0" y1="0" x2="${x}" y2="${yy}" stroke="#ffe3a3" stroke-width="1.5" stroke-dasharray="4 4"/>
-      <circle cx="${x}" cy="${yy}" r="16" fill="#ffcf6b" opacity=".3"/><circle cx="${x}" cy="${yy}" r="9" fill="#ffd77f" stroke="#fff3d1" stroke-width="2"/>
-      <text x="0" y="${-R + 30}" text-anchor="middle" fill="#fff" font-size="12">${Math.round(cur.alt)}° · ${Math.round(cur.az)}°</text>`;
-  } else {
-    s += `<text x="0" y="${-R + 30}" text-anchor="middle" fill="#cdb796" font-size="12">${t("sun.below")}</text>`;
-  }
-  svg.innerHTML = s;
-  document.getElementById("rSunrise").textContent = fmtMin(track.rise);
-  document.getElementById("rSunset").textContent = fmtMin(track.set);
-  const len = (track.set ?? 0) - (track.rise ?? 0);
-  document.getElementById("rDay").textContent = t("dur", { h: Math.floor(len / 60), m: len % 60 });
-  document.getElementById("rNoon").textContent = Math.round(track.noonAlt) + "°";
+  const info = dayInfo(y, m, d);
+  document.getElementById("rSunrise").textContent = fmtMin(info.rise);
+  document.getElementById("rSunset").textContent = fmtMin(info.set);
+  const len = info.rise != null && info.set != null ? info.set - info.rise : 0;
+  document.getElementById("rDay").textContent = t("dur", { h: Math.floor(len / 60), m: Math.round(len % 60) });
+  document.getElementById("rNoon").textContent = info.noonAlt == null ? "–" : Math.round(info.noonAlt) + "°";
   document.getElementById("timeOut").textContent = fmtMin(timeMin);
   document.querySelectorAll("#seasonBtns button").forEach(b => b.classList.toggle("on", b.dataset.day === season));
+  sun3d.update();
 }
-document.querySelectorAll("#seasonBtns button").forEach(b => b.addEventListener("click", () => { season = b.dataset.day; drawSun(); }));
+document.querySelectorAll("#seasonBtns button").forEach(b => b.addEventListener("click", () => { season = b.dataset.day; updateSunUI(); }));
 const slider = document.getElementById("timeSlider");
 slider.value = timeMin;
-slider.addEventListener("input", () => { timeMin = +slider.value; drawSun(); });
+slider.addEventListener("input", () => { timeMin = +slider.value; updateSunUI(); });
 
-/* ---------------- Map ---------------- */
-let gm = null, markers = [];
+/* ---------------- Geometry helpers (shadows) ---------------- */
+const M_LAT = 110540;
+const mLng = lat => 111320 * Math.cos(lat * RAD);
+function hull(pts) { // monotone chain convex hull, pts = [[x,y],...]
+  const p = pts.slice().sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  if (p.length < 3) return p;
+  const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+  const lo = [], up = [];
+  for (const q of p) { while (lo.length >= 2 && cross(lo[lo.length - 2], lo[lo.length - 1], q) <= 0) lo.pop(); lo.push(q); }
+  for (let i = p.length - 1; i >= 0; i--) { const q = p[i]; while (up.length >= 2 && cross(up[up.length - 2], up[up.length - 1], q) <= 0) up.pop(); up.push(q); }
+  up.pop(); lo.pop();
+  return lo.concat(up);
+}
+function pointInRing(x, y, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i], [xj, yj] = ring[j];
+    if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+const outerRings = g => g.type === "Polygon" ? [g.coordinates[0]] : g.type === "MultiPolygon" ? g.coordinates.map(p => p[0]) : [];
+// Shadow polygons for extruded buildings on level ground, as GeoJSON features.
+function shadowFeatures(feats, sun, center, radiusM) {
+  if (sun.alt <= 0.5) return [];
+  const kx = mLng(center.lat), seen = new Set(), out = [];
+  const b = (sun.az + 180) * RAD, tanA = Math.tan(sun.alt * RAD);
+  for (const f of feats) {
+    const h = +(f.properties.render_height ?? f.properties.height ?? 0);
+    if (!(h > 0)) continue;
+    for (const ring of outerRings(f.geometry)) {
+      if (!ring || ring.length < 3) continue;
+      const key = ring[0][0].toFixed(6) + "," + ring[0][1].toFixed(6) + "," + h;
+      if (seen.has(key)) continue; seen.add(key);
+      const pts = ring.map(([lng, lat]) => [(lng - center.lng) * kx, (lat - center.lat) * M_LAT]);
+      if (Math.hypot(pts[0][0], pts[0][1]) > radiusM) continue;
+      const L = Math.min(h / tanA, 350), dx = L * Math.sin(b), dy = L * Math.cos(b);
+      const hp = hull(pts.concat(pts.map(([x, y]) => [x + dx, y + dy])));
+      if (hp.length < 3) continue;
+      const coords = hp.map(([x, y]) => [center.lng + x / kx, center.lat + y / M_LAT]);
+      coords.push(coords[0]);
+      out.push({ type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [coords] } });
+    }
+  }
+  return out;
+}
+function findHomeBuilding(feats, pt) {
+  let best = null, bestD = 45; // metres
+  const kx = mLng(pt.lat);
+  for (const f of feats) for (const ring of outerRings(f.geometry)) {
+    if (!ring) continue;
+    const r = ring.map(([lng, lat]) => [(lng - pt.lng) * kx, (lat - pt.lat) * M_LAT]);
+    if (pointInRing(0, 0, r)) return f;
+    const cx = r.reduce((s, p) => s + p[0], 0) / r.length, cy = r.reduce((s, p) => s + p[1], 0) / r.length;
+    const dd = Math.hypot(cx, cy);
+    if (dd < bestD) { bestD = dd; best = f; }
+  }
+  return best;
+}
+
+/* ---------------- Script loader ---------------- */
+function loadScript(src) {
+  return new Promise((res, rej) => { const s = document.createElement("script"); s.src = src; s.async = true; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+}
+function loadCss(href) { const l = document.createElement("link"); l.rel = "stylesheet"; l.href = href; document.head.appendChild(l); }
+
+/* ---------------- 3D sun & shadow map (MapLibre + OpenFreeMap) ---------------- */
+const sun3d = (() => {
+  let map = null, srcId = "openmaptiles", bldLayer = null, raf = 0, homeMarker = null;
+  const box = document.getElementById("sun3d");
+  const night = document.getElementById("sun3dNight");
+  const readout = document.getElementById("sun3dReadout");
+  const LIB = "https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl";
+
+  async function load() {
+    const btn = document.getElementById("sun3dLoad");
+    btn.disabled = true;
+    try {
+      loadCss(LIB + ".css");
+      await loadScript(LIB + ".js");
+      if (!window.SunCalc) { try { await loadScript("https://unpkg.com/suncalc@1.9.0/suncalc.js"); } catch (e) {} }
+      init();
+      box.classList.add("loaded");
+    } catch (e) {
+      btn.disabled = false;
+      btn.textContent = t("sun3d.fail");
+    }
+  }
+
+  function init() {
+    map = new maplibregl.Map({
+      container: "sun3dMap",
+      style: "https://tiles.openfreemap.org/styles/liberty",
+      center: [HOME.lng, HOME.lat], zoom: 16.4, pitch: 60, bearing: -20, maxPitch: 80,
+      attributionControl: { compact: true, customAttribution:
+        '<a href="https://openfreemap.org" target="_blank">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> · Terrain: Mapzen / AWS Terrain Tiles' }
+    });
+    map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
+
+    map.on("load", () => {
+      const style = map.getStyle();
+      const vec = Object.entries(style.sources).find(([, s]) => s.type === "vector");
+      if (vec) srcId = vec[0];
+
+      // Terrain + hill shading (free AWS/Mapzen terrain tiles). Optional: the map works without it.
+      try {
+        const dem = { type: "raster-dem", tiles: ["https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"], encoding: "terrarium", tileSize: 256, maxzoom: 14 };
+        map.addSource("dem-hs", dem);
+        map.addSource("dem-terrain", { ...dem });
+        const firstLine = style.layers.find(l => l.type === "line");
+        map.addLayer({ id: "sun-hillshade", type: "hillshade", source: "dem-hs",
+          paint: { "hillshade-illumination-anchor": "map", "hillshade-exaggeration": 0.55,
+                   "hillshade-shadow-color": "#3a2a1a", "hillshade-highlight-color": "#fff6dc", "hillshade-accent-color": "#5a4430" } },
+          firstLine ? firstLine.id : undefined);
+        map.setTerrain({ source: "dem-terrain", exaggeration: 1 });
+      } catch (e) { /* terrain optional */ }
+
+      // 3D buildings: reuse the style's extrusion layer, or add one.
+      const ext = map.getStyle().layers.find(l => l.type === "fill-extrusion");
+      if (ext) bldLayer = ext.id;
+      else {
+        bldLayer = "bldg-3d";
+        map.addLayer({ id: bldLayer, type: "fill-extrusion", source: srcId, "source-layer": "building", minzoom: 13,
+          paint: { "fill-extrusion-color": "#e9dfd0", "fill-extrusion-height": ["coalesce", ["get", "render_height"], 6],
+                   "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0], "fill-extrusion-opacity": 0.95 } });
+      }
+      map.setPaintProperty(bldLayer, "fill-extrusion-color", "#ece3d5");
+
+      map.addSource("sun-shadows", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+      map.addLayer({ id: "sun-shadows", type: "fill", source: "sun-shadows",
+        paint: { "fill-color": "#1b140e", "fill-opacity": 0.38, "fill-antialias": false } }, bldLayer);
+
+      map.addSource("home-bldg", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+      map.addLayer({ id: "home-bldg", type: "fill-extrusion", source: "home-bldg",
+        paint: { "fill-extrusion-color": "#e0a23a", "fill-extrusion-height": ["coalesce", ["get", "render_height"], 15],
+                 "fill-extrusion-base": ["coalesce", ["get", "render_min_height"], 0], "fill-extrusion-opacity": 1 } });
+
+      const el = document.createElement("div"); el.className = "home-marker"; el.title = "Szirtes út 26/B";
+      homeMarker = new maplibregl.Marker({ element: el }).setLngLat([HOME.lng, HOME.lat]).addTo(map);
+
+      update();
+      map.once("idle", () => { highlightHome(); update(); });
+      map.on("moveend", () => update());
+      map.on("sourcedata", e => { if (e.sourceId === srcId && e.isSourceLoaded) update(); });
+    });
+  }
+
+  function buildings() {
+    try { return map.querySourceFeatures(srcId, { sourceLayer: "building" }); } catch (e) { return []; }
+  }
+  function highlightHome() {
+    const f = findHomeBuilding(buildings(), HOME);
+    map.getSource("home-bldg").setData({ type: "FeatureCollection",
+      features: f ? [{ type: "Feature", properties: f.properties, geometry: f.geometry }] : [] });
+  }
+
+  function render() {
+    raf = 0;
+    if (!map || !map.isStyleLoaded() || !map.getSource("sun-shadows")) return;
+    const s = currentSun();
+    const up = s.alt > 0;
+    // Directional light for the 3D buildings: azimuthal = sun bearing, polar = 90° - altitude
+    const warm = s.alt < 12 ? "#ffc98a" : "#fff4df";
+    map.setLight({ anchor: "map", position: [1.5, s.az, Math.min(89, Math.max(5, 90 - s.alt))],
+      color: up ? warm : "#8090b0", intensity: up ? 0.55 : 0.15 });
+    if (map.getLayer("sun-hillshade")) {
+      map.setPaintProperty("sun-hillshade", "hillshade-illumination-direction", Math.round(s.az) % 360);
+      map.setPaintProperty("sun-hillshade", "hillshade-exaggeration", up ? Math.min(0.85, 0.35 + (25 - Math.min(s.alt, 25)) / 50) : 0.9);
+    }
+    map.getSource("sun-shadows").setData({ type: "FeatureCollection", features: shadowFeatures(buildings(), s, HOME, 900) });
+    night.hidden = up;
+    readout.hidden = !up;
+    if (up) readout.textContent = t("sun3d.readout", { time: fmtMin(timeMin), alt: Math.round(s.alt), dir: t("dir." + compass8(s.az)) });
+  }
+  function update() { if (map && !raf) raf = requestAnimationFrame(render); }
+  function moveHome() {
+    if (!map) return;
+    homeMarker && homeMarker.setLngLat([HOME.lng, HOME.lat]);
+    map.jumpTo({ center: [HOME.lng, HOME.lat] });
+    map.once("idle", () => { highlightHome(); update(); });
+  }
+  document.getElementById("sun3dLoad").addEventListener("click", load);
+  homeListeners.push(moveHome);
+  return { update };
+})();
+
+/* ---------------- Google: main map, places, elevation, street view ---------------- */
+const CITY_SPOTS = [
+  { name: "Deák Ferenc tér", lat: 47.4977, lng: 19.0544 },
+  { name: "Astoria", lat: 47.4935, lng: 19.0603 },
+  { name: "Ferenciek tere", lat: 47.4930, lng: 19.0557 },
+  { name: "Kálvin tér", lat: 47.4893, lng: 19.0614 },
+  { name: "Március 15. tér", lat: 47.4920, lng: 19.0518 }
+];
+let citySpot = CITY_SPOTS[0];
+const CATS = { transit: "#2b6cb0", parks: "#2f8a4f", dining: "#c8553d" };
+const CURATED = [
+  { cat: "transit", q: "Szirtes út bus stop, Budapest", en: "Bus 27 · Szirtes út stop", hu: "27-es busz · Szirtes út megálló" },
+  { cat: "transit", q: "Búsuló Juhász (Citadella) bus stop, Budapest", en: "Bus 27 · Búsuló Juhász (Citadella)", hu: "27-es busz · Búsuló Juhász (Citadella)" },
+  { cat: "transit", q: "Móricz Zsigmond körtér M4 metro station, Budapest", en: "Móricz Zsigmond körtér · M4 and trams", hu: "Móricz Zsigmond körtér · M4 és villamosok" },
+  { cat: "transit", q: "Szent Gellért tér – Műegyetem M4 metro station, Budapest", en: "Szent Gellért tér · M4 and trams", hu: "Szent Gellért tér · M4 és villamosok" },
+  { cat: "parks", q: "Citadella, Gellért Hill, Budapest", en: "Citadella", hu: "Citadella", fixed: { lat: C.CITADELLA_LAT, lng: C.CITADELLA_LNG } },
+  { cat: "parks", q: "Liberty Statue, Gellért Hill, Budapest", en: "Liberty Statue", hu: "Szabadság-szobor" },
+  { cat: "parks", q: "Filozófusok kertje, Gellérthegy, Budapest", en: "Philosophers' Garden", hu: "Filozófusok kertje" },
+  { cat: "parks", q: "Jubileumi park, Gellérthegy, Budapest", en: "Jubilee Park", hu: "Jubileumi park" }
+];
+
+let G = null, GM = {}, gmap = null, homeMk = null, homeIw = null, elev = null;
+const poiMarkers = [];
+let activeCat = "all";
+const dist = (a, b) => Math.hypot((a.lat - b.lat) * M_LAT, (a.lng - b.lng) * mLng(a.lat));
+const pinIcon = (color, size) => ({
+  url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="${color}" stroke="#fff" stroke-width="3"/></svg>`),
+  scaledSize: new GM.Size(size, size), anchor: new GM.Point(size / 2, size / 2)
+});
+
+function osmFallback() {
+  const lat = HOME.lat, lng = HOME.lng, dx = 0.009, dy = 0.0045;
+  document.getElementById("mapCanvas").innerHTML =
+    `<iframe title="Map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=${lng - dx},${lat - dy},${lng + dx},${lat + dy}&layer=mapnik&marker=${lat},${lng}"></iframe>`;
+  document.getElementById("mapFilters").hidden = true;
+  document.getElementById("svThumb").hidden = true;
+}
+
+function homePopupHtml() {
+  let h = `<div style="font:14px/1.5 Inter,sans-serif;max-width:240px"><strong>${esc(t("map.property"))}</strong>`;
+  if (elev) {
+    h += `<br>${esc(t("pin.elev", { e: Math.round(elev.home) }))}`;
+    if (elev.diff > 0) h += `<br><span style="color:#2f5443;font-weight:600">${esc(t("pin.diff", { d: Math.round(elev.diff), place: elev.place }))}</span>`;
+  }
+  return h + "</div>";
+}
+
+async function geocodeHome() {
+  if (C.PROPERTY_PIN_EXACT) return null;
+  const cached = cache.get("home");
+  if (cached) return cached;
+  const near = r => r && dist(r, { lat: C.PROPERTY_LAT, lng: C.PROPERTY_LNG }) < 2000 ? r : null;
+  try {
+    const { Geocoder } = await G.importLibrary("geocoding");
+    const res = await new Geocoder().geocode({ address: C.ADDRESS, region: "hu" });
+    const loc = res.results[0]?.geometry?.location;
+    const r = near(loc && { lat: loc.lat(), lng: loc.lng() });
+    if (r) { cache.set("home", r); return r; }
+  } catch (e) {}
+  try {
+    const { Place } = await G.importLibrary("places");
+    const { places } = await Place.searchByText({ textQuery: C.ADDRESS, fields: ["location"], maxResultCount: 1 });
+    const loc = places[0]?.location;
+    const r = near(loc && { lat: loc.lat(), lng: loc.lng() });
+    if (r) { cache.set("home", r); return r; }
+  } catch (e) {}
+  return null;
+}
+
+async function loadPois() {
+  let data = cache.get("places-v1");
+  if (!data) {
+    data = { curated: [], dining: [] };
+    const { Place } = await G.importLibrary("places");
+    for (const c of CURATED) {
+      let loc = c.fixed || null;
+      if (!loc) {
+        try {
+          const { places } = await Place.searchByText({ textQuery: c.q, fields: ["location"], maxResultCount: 1,
+            locationBias: { center: { lat: HOME.lat, lng: HOME.lng }, radius: 3000 } });
+          const l = places[0]?.location;
+          if (l && dist({ lat: l.lat(), lng: l.lng() }, HOME) < 3000) loc = { lat: l.lat(), lng: l.lng() };
+        } catch (e) {}
+      }
+      if (loc) data.curated.push({ i: CURATED.indexOf(c), ...loc });
+    }
+    try {
+      const { places } = await Place.searchNearby({ fields: ["displayName", "location"],
+        locationRestriction: { center: { lat: HOME.lat, lng: HOME.lng }, radius: 1000 },
+        includedPrimaryTypes: ["restaurant", "cafe", "bakery", "supermarket", "grocery_store"], maxResultCount: 15 });
+      data.dining = places.filter(p => p.location).map(p => ({ name: p.displayName, lat: p.location.lat(), lng: p.location.lng() }));
+    } catch (e) {}
+    cache.set("places-v1", data);
+  }
+  const iw = new GM.InfoWindow();
+  const add = (pos, cat, labelFn) => {
+    const m = new GM.Marker({ position: pos, map: gmap, icon: pinIcon(CATS[cat], 18) });
+    m.addListener("click", () => { iw.setContent(`<div style="font:14px Inter,sans-serif"><strong>${esc(labelFn())}</strong></div>`); iw.open(gmap, m); });
+    poiMarkers.push({ m, cat, labelFn });
+  };
+  data.curated.forEach(p => { const c = CURATED[p.i]; add({ lat: p.lat, lng: p.lng }, c.cat, () => c[lang]); });
+  data.dining.forEach(p => add({ lat: p.lat, lng: p.lng }, "dining", () => p.name));
+  applyFilter();
+  updateMapLang();
+}
+function applyFilter() {
+  poiMarkers.forEach(({ m, cat }) => m.setVisible(activeCat === "all" || activeCat === cat));
+  document.querySelectorAll("#mapFilters button").forEach(b => b.classList.toggle("on", b.dataset.cat === activeCat));
+}
+document.querySelectorAll("#mapFilters button").forEach(b => {
+  if (CATS[b.dataset.cat]) b.insertAdjacentHTML("afterbegin", `<span class="dot" style="background:${CATS[b.dataset.cat]}"></span>`);
+  b.addEventListener("click", () => { activeCat = b.dataset.cat; applyFilter(); });
+});
+function updateMapLang() {
+  poiMarkers.forEach(({ m, labelFn }) => m.setTitle(labelFn()));
+  if (homeMk) homeMk.setTitle(t("map.property"));
+  if (homeIw) homeIw.setContent(homePopupHtml());
+  // filter buttons lose their dot when text is replaced by applyLang; restore it
+  document.querySelectorAll("#mapFilters button").forEach(b => {
+    if (CATS[b.dataset.cat] && !b.querySelector(".dot")) b.insertAdjacentHTML("afterbegin", `<span class="dot" style="background:${CATS[b.dataset.cat]}"></span>`);
+  });
+}
+
+async function computeElevation() {
+  const k = "elev-" + citySpot.name;
+  let r = cache.get(k);
+  if (!r) {
+    try {
+      const { ElevationService } = await G.importLibrary("elevation");
+      const { results } = await new ElevationService().getElevationForLocations({
+        locations: [{ lat: HOME.lat, lng: HOME.lng }, { lat: citySpot.lat, lng: citySpot.lng }] });
+      r = { home: results[0].elevation, city: results[1].elevation };
+      cache.set(k, r);
+    } catch (e) { return; }
+  }
+  elev = { home: r.home, diff: r.home - r.city, place: citySpot.name };
+  if (homeIw) homeIw.setContent(homePopupHtml());
+  renderAir();
+}
+
+async function setupStreetView() {
+  const btn = document.getElementById("svThumb");
+  try {
+    const meta = await (await fetch(`https://maps.googleapis.com/maps/api/streetview/metadata?location=${HOME.lat},${HOME.lng}&radius=100&source=outdoor&key=${encodeURIComponent(KEY)}`)).json();
+    if (meta.status !== "OK") { btn.hidden = true; return; }
+    const pano = meta.location;
+    const img = document.getElementById("svImg");
+    img.src = `https://maps.googleapis.com/maps/api/streetview?size=480x240&location=${HOME.lat},${HOME.lng}&radius=100&source=outdoor&key=${encodeURIComponent(KEY)}`;
+    img.onerror = () => btn.hidden = true;
+    img.alt = "Street View";
+    btn.hidden = false;
+    btn.onclick = () => {
+      const heading = (Math.atan2((HOME.lng - pano.lng) * mLng(HOME.lat), (HOME.lat - pano.lat) * M_LAT) / RAD + 360) % 360;
+      const sv = gmap.getStreetView();
+      sv.setPosition(pano); sv.setPov({ heading, pitch: 12 }); sv.setVisible(true);
+      document.getElementById("map").scrollIntoView({ behavior: "smooth" });
+    };
+  } catch (e) { btn.hidden = true; }
+}
+
+async function initGoogleMap() {
+  const { Map, InfoWindow } = await G.importLibrary("maps");
+  const { Marker } = await G.importLibrary("marker");
+  const { Size, Point } = await G.importLibrary("core");
+  Object.assign(GM, { InfoWindow, Marker, Size, Point });
+  const geo = await geocodeHome();
+  if (geo) setHome(geo.lat, geo.lng);
+  gmap = new Map(document.getElementById("mapCanvas"), {
+    center: { lat: HOME.lat, lng: HOME.lng }, zoom: 16,
+    mapTypeControl: true, streetViewControl: true, fullscreenControl: true, clickableIcons: false
+  });
+  homeIw = new InfoWindow();
+  homeMk = new Marker({ position: { lat: HOME.lat, lng: HOME.lng }, map: gmap, zIndex: 999, icon: pinIcon("#d99a2b", 30) });
+  homeMk.addListener("click", () => { homeIw.setContent(homePopupHtml()); homeIw.open(gmap, homeMk); });
+  document.getElementById("mapFilters").hidden = false;
+  updateMapLang();
+  setupStreetView();
+  loadPois().catch(() => {});
+  return true;
+}
+
+function loadGoogle() {
+  return new Promise((resolve, reject) => {
+    window.gm_authFailure = () => { osmFallback(); reject(new Error("auth")); };
+    window.__gmReady = () => { G = google.maps; resolve(); };
+    loadScript(`https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(KEY)}&callback=__gmReady&loading=async&v=weekly&language=${lang}`).catch(reject);
+  });
+}
+
+/* ---------------- Air quality (Google Air Quality API) ---------------- */
+let air = null;
+const POLL = { pm25: "PM2.5", pm10: "PM10", no2: "NO₂", o3: "O₃", co: "CO", so2: "SO₂", nh3: "NH₃", nmhc: "NMHC" };
+const aqBand = v => v >= 80 ? 5 : v >= 60 ? 4 : v >= 40 ? 3 : v >= 20 ? 2 : 1;
+async function aqLookup(p) {
+  const r = await fetch(`https://airquality.googleapis.com/v1/currentConditions:lookup?key=${encodeURIComponent(KEY)}`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ location: { latitude: p.lat, longitude: p.lng }, universalAqi: true })
+  });
+  if (!r.ok) throw new Error("aq " + r.status);
+  const j = await r.json();
+  const ix = (j.indexes || []).find(i => i.code === "uaqi");
+  if (!ix || typeof ix.aqi !== "number") throw new Error("aq data");
+  return { aqi: ix.aqi, pol: ix.dominantPollutant || "", time: j.dateTime };
+}
+async function loadAir() {
+  let d = cache.get("air-v1", 30);
+  if (!d) {
+    const home = await aqLookup(HOME);
+    const spots = await Promise.all(CITY_SPOTS.map(s => aqLookup(s).then(v => ({ ...v, spot: s })).catch(() => null)));
+    const ok = spots.filter(Boolean);
+    if (!ok.length) throw new Error("no city data");
+    const worst = ok.reduce((a, b) => b.aqi < a.aqi ? b : a);
+    d = { home, city: worst };
+    cache.set("air-v1", d);
+  }
+  air = d;
+  citySpot = d.city.spot;
+  renderAir();
+}
+function fillAqCard(el, v) {
+  el.querySelector(".v").textContent = Math.round(v.aqi);
+  el.querySelector(".aq-cat").textContent = t("aq." + aqBand(v.aqi));
+  el.querySelector(".aq-pol").textContent = v.pol ? t("air.dominant", { p: POLL[v.pol] || v.pol.toUpperCase() }) : "";
+}
+function renderAir() {
+  const sec = document.getElementById("air");
+  const badge = document.getElementById("elevBadge");
+  if (elev && elev.diff > 0) {
+    badge.textContent = t("air.elevBadge", { e: Math.round(elev.home), d: Math.round(elev.diff) });
+    badge.hidden = false;
+  }
+  if (!air) { sec.hidden = true; return; }
+  fillAqCard(document.getElementById("aqHome"), air.home);
+  const city = document.getElementById("aqCity");
+  fillAqCard(city, air.city);
+  city.querySelector(".aq-place").textContent = air.city.spot.name;
+  const diff = Math.round(air.home.aqi - air.city.aqi);
+  document.getElementById("aqCaption").textContent =
+    diff >= 8 ? t("air.capBetter", { d: diff, place: air.city.spot.name }) :
+    diff > -3 ? t("air.capClose") : t("air.capNeutral");
+  const when = air.home.time ? new Intl.DateTimeFormat(lang === "hu" ? "hu-HU" : "en-GB",
+    { timeZone: "Europe/Budapest", hour: "2-digit", minute: "2-digit", day: "numeric", month: "short" }).format(new Date(air.home.time)) : "";
+  document.getElementById("aqFoot").textContent = t("air.foot", { time: when });
+  sec.hidden = false;
+}
+
+/* ---------------- Weather pill (Google Weather API) ---------------- */
+let wx = null;
+const WX_DIR_HU = { N: "É", S: "D", E: "K", W: "Ny" };
+const cardinalShort = c => (c || "").split("_").map(w => w[0]).join("");
+async function loadWeather() {
+  const k = "wx-" + lang;
+  let d = cache.get(k, 20);
+  if (!d) {
+    const r = await fetch(`https://weather.googleapis.com/v1/currentConditions:lookup?key=${encodeURIComponent(KEY)}&location.latitude=${HOME.lat}&location.longitude=${HOME.lng}&languageCode=${lang}&unitsSystem=METRIC`);
+    if (!r.ok) throw new Error("wx");
+    const j = await r.json();
+    if (typeof j.temperature?.degrees !== "number") throw new Error("wx data");
+    d = { temp: j.temperature.degrees, text: j.weatherCondition?.description?.text || "", icon: j.weatherCondition?.iconBaseUri || "",
+          wind: j.wind?.speed?.value, dir: cardinalShort(j.wind?.direction?.cardinal) };
+    cache.set(k, d);
+  }
+  wx = d; wx.lang = lang;
+  renderWeather();
+}
+function renderWeather() {
+  const el = document.getElementById("weatherPill");
+  if (!wx) { el.hidden = true; return; }
+  if (wx.lang !== lang) { loadWeather().catch(() => {}); return; }
+  const dir = lang === "hu" ? wx.dir.split("").map(c => WX_DIR_HU[c] || c).join("") : wx.dir;
+  const parts = [`<b>${esc(t("wx.place"))}</b>`, `${Math.round(wx.temp)} °C`];
+  if (wx.text) parts.push(esc(wx.text));
+  if (typeof wx.wind === "number") parts.push(esc(t("wx.wind", { s: Math.round(wx.wind), d: dir })));
+  el.innerHTML = (wx.icon ? `<img src="${esc(wx.icon)}.svg" alt="">` : "") + parts.join('<span class="wp-sep">·</span>');
+  el.hidden = false;
+}
+
+/* ---------------- Map links ---------------- */
 const addrQ = encodeURIComponent(C.ADDRESS);
 document.getElementById("gmapsLink").href = `https://www.google.com/maps/search/?api=1&query=${addrQ}`;
 document.getElementById("citadellaWalk").href =
   `https://www.google.com/maps/dir/?api=1&origin=${addrQ}&destination=${C.CITADELLA_LAT},${C.CITADELLA_LNG}&travelmode=walking`;
-
-function osmFallback() {
-  const lat = C.PROPERTY_LAT, lng = C.PROPERTY_LNG, dx = 0.009, dy = 0.0045;
-  document.getElementById("mapCanvas").innerHTML =
-    `<iframe title="Map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=${lng - dx},${lat - dy},${lng + dx},${lat + dy}&layer=mapnik&marker=${lat},${lng}"></iframe>`;
-}
-window.__initGMap = function () {
-  gm = new google.maps.Map(document.getElementById("mapCanvas"), {
-    center: { lat: (C.PROPERTY_LAT + C.CITADELLA_LAT) / 2, lng: (C.PROPERTY_LNG + C.CITADELLA_LNG) / 2 },
-    zoom: 16, mapTypeControl: true, streetViewControl: true, fullscreenControl: true
-  });
-  const mk = (lat, lng, label, color) => {
-    const m = new google.maps.Marker({ position: { lat, lng }, map: gm,
-      icon: { path: google.maps.SymbolPath.CIRCLE, scale: 11, fillColor: color, fillOpacity: 1, strokeColor: "#fff", strokeWeight: 3 } });
-    const iw = new google.maps.InfoWindow();
-    m.addListener("click", () => { iw.setContent(`<strong>${t(label)}</strong>`); iw.open(gm, m); });
-    markers.push({ m, label }); return m;
-  };
-  mk(C.PROPERTY_LAT, C.PROPERTY_LNG, "map.property", "#d99a2b");
-  mk(C.CITADELLA_LAT, C.CITADELLA_LNG, "map.citadella", "#2f5443");
-  updateMapLabels();
-};
-function updateMapLabels() { markers.forEach(({ m, label }) => m.setTitle(t(label))); }
-function initMap() {
-  if (!C.GOOGLE_MAPS_API_KEY) { osmFallback(); return; }
-  window.gm_authFailure = osmFallback;
-  const s = document.createElement("script");
-  s.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(C.GOOGLE_MAPS_API_KEY)}&callback=__initGMap&loading=async`;
-  s.async = true; s.onerror = osmFallback;
-  document.head.appendChild(s);
-}
 
 /* ---------------- Contact ---------------- */
 function initContact() {
@@ -418,6 +886,17 @@ function initContact() {
 /* ---------------- Boot ---------------- */
 document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => applyLang(b.dataset.lang)));
 initContact();
-initMap();
 applyLang(detectLang());
+
+if (!KEY) {
+  osmFallback();
+} else {
+  const mapDone = loadGoogle().then(initGoogleMap).catch(() => { osmFallback(); return false; });
+  // Air quality and weather use REST endpoints; run them once the pin is settled (or Maps failed).
+  mapDone.then(async ok => {
+    loadWeather().catch(() => {});
+    try { await loadAir(); } catch (e) { air = null; renderAir(); }
+    if (ok) computeElevation();
+  });
+}
 })();

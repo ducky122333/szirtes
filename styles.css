@@ -41,7 +41,6 @@ h3{font-size:1.35rem}
 .facts span{font-size:.8rem;color:var(--muted)}
 .price-row{display:flex;align-items:center;gap:1.8rem;flex-wrap:wrap}
 .price{font:600 2.2rem var(--serif);color:var(--green-d)}
-.price-sub{font-size:.85rem;color:var(--muted)}
 .hero-img{margin:0;position:relative}
 .hero-img img{border-radius:22px;aspect-ratio:4/5;object-fit:cover;width:100%;box-shadow:0 30px 60px -30px rgba(30,38,34,.45)}
 .hero-img figcaption{font-size:.82rem;color:var(--muted);margin-top:.6rem}
@@ -147,3 +146,56 @@ h3{font-size:1.35rem}
 .lb-close{top:.5rem;right:.8rem}
 .lb-prev{left:.5rem;top:50%;transform:translateY(-50%)}
 .lb-next{right:.5rem;top:50%;transform:translateY(-50%)}
+
+/* weather pill */
+.weather-pill{position:absolute;top:14px;left:14px;display:flex;align-items:center;gap:.4rem;background:rgba(255,253,249,.88);backdrop-filter:blur(6px);color:var(--ink);font-size:.8rem;padding:.3rem .8rem .3rem .45rem;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.weather-pill img{width:22px;height:22px}
+.weather-pill b{font-weight:600}
+.weather-pill .wp-sep{opacity:.4}
+
+/* 3D sun map */
+.sun3d{position:relative;width:100%;aspect-ratio:1/1;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.18);background:#2d2118}
+#sun3dMap{position:absolute;inset:0}
+.sun3d-cover{position:absolute;inset:0;z-index:2;display:flex;align-items:flex-end;padding:1.8rem;background:linear-gradient(180deg,rgba(42,32,23,.15),rgba(42,32,23,.92)),url(/img/balcony-day-sm.webp) center/cover}
+.sun3d-cover h3{color:#fff;font-size:1.7rem}
+.sun3d-cover p{color:#ecdcc3;font-size:.95rem;max-width:30em}
+.sun-btn{background:var(--sun);color:#2a2017}
+.sun-btn:hover{background:#f0b54a}
+.sun3d.loaded .sun3d-cover{display:none}
+.sun3d-night{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;background:rgba(15,18,30,.55);color:#e9e2d6;font-weight:600;pointer-events:none}
+.sun3d-night[hidden]{display:none}
+.sun3d-readout{position:absolute;top:10px;left:10px;z-index:1;background:rgba(42,32,23,.8);color:#fff;font-size:.78rem;padding:.3rem .7rem;border-radius:999px}
+.sun3d-readout[hidden]{display:none}
+.sun3d .maplibregl-ctrl-attrib{font-size:10px}
+.home-marker{width:22px;height:22px;border-radius:50%;background:#d99a2b;border:3px solid #fff;box-shadow:0 0 0 6px rgba(217,154,43,.35)}
+
+/* map filters, street view */
+.map-filters{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.4rem}
+.map-filters[hidden]{display:none}
+.map-filters button{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:.45em 1em;font:500 .85rem var(--sans);cursor:pointer;color:var(--ink)}
+.map-filters button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.map-filters .dot{display:inline-block;width:.6em;height:.6em;border-radius:50%;margin-right:.4em;vertical-align:middle}
+.map-below{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;flex-wrap:wrap}
+.sv-thumb{margin-top:.8rem;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--paper);cursor:pointer;width:240px;text-align:left;font:500 .82rem var(--sans);color:var(--ink)}
+.sv-thumb[hidden]{display:none}
+.sv-thumb img{width:100%;height:120px;object-fit:cover}
+.sv-thumb span{display:block;padding:.45rem .7rem}
+.sv-thumb:hover{border-color:var(--green)}
+
+/* air quality */
+.air[hidden]{display:none}
+.elev-badge{display:inline-flex;align-items:center;gap:.5rem;background:var(--green);color:#fff;border-radius:999px;padding:.45rem 1.1rem;font-weight:600;font-size:.9rem;margin-bottom:1.4rem}
+.elev-badge[hidden]{display:none}
+.aq-cards{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.2rem;max-width:860px}
+.aq-card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:1.5rem 1.6rem;position:relative}
+.aq-card.home{border:2px solid #3f8a5f;box-shadow:0 12px 30px -18px rgba(47,84,67,.55)}
+.aq-tag{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;background:#e2f0e6;color:#2b6b45;padding:.25em .7em;border-radius:999px}
+.aq-tag.muted{background:#efebe4;color:var(--muted)}
+.aq-card h3{margin:.7rem 0 .3rem}
+.aq-num .v{font:600 3.4rem/1 var(--serif)}
+.aq-num .of{color:var(--muted);margin-left:.2rem}
+.aq-cat{font-weight:600;margin-top:.3rem}
+.aq-pol{font-size:.88rem;color:var(--muted)}
+.aq-caption{max-width:48em;margin-top:1.3rem}
+.aq-foot{font-size:.78rem;color:var(--muted)}
+@media (max-width:640px){.aq-cards{grid-template-columns:1fr}}
