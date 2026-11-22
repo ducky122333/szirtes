@@ -40,7 +40,6 @@
   <div class="hero-text">
     <p class="eyebrow" data-i18n="hero.eyebrow"></p>
     <h1 data-i18n="hero.title"></h1>
-    <p class="unesco-pill"><span class="u-badge">UNESCO</span><span data-i18n="hero.unesco"></span></p>
     <p class="lead" data-i18n="hero.lead"></p>
     <ul class="facts">
       <li><strong>82 m²</strong><span data-i18n="fact.area"></span></li>
@@ -58,7 +57,6 @@
   </div>
   <figure class="hero-img">
     <img src="/img/hero-frontage.webp" srcset="/img/hero-frontage-sm.webp 700w, /img/hero-frontage.webp 1350w" sizes="(max-width: 900px) 100vw, 45vw" alt="" data-i18n-alt="alt.hero" fetchpriority="high">
-    <div class="weather-pill" id="weatherPill" hidden></div>
     <figcaption data-i18n="hero.caption"></figcaption>
   </figure>
 </section>
@@ -168,13 +166,6 @@
 <!-- MAP + NEARBY -->
 <section id="map" class="section">
   <h2 data-i18n="map.title"></h2>
-  <p class="sub" data-i18n="map.sub"></p>
-  <div class="map-filters" id="mapFilters" hidden>
-    <button data-cat="all" class="on" data-i18n="filter.all"></button>
-    <button data-cat="transit" data-i18n="filter.transit"></button>
-    <button data-cat="parks" data-i18n="filter.parks"></button>
-    <button data-cat="dining" data-i18n="filter.dining"></button>
-  </div>
   <div class="map-wrap"><div id="mapCanvas"></div></div>
   <div class="map-below">
     <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
