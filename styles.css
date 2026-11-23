@@ -261,3 +261,5 @@ h3{font-size:1.35rem}
 .loc-pair img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:14px}
 .loc-pair figcaption{font-size:.82rem;color:#b9c4bd;margin-top:.5rem}
 @media (max-width:700px){.loc-pair{grid-template-columns:1fr}.loc-points{grid-template-columns:1fr}}
+
+.gallery{grid-auto-flow:dense}
