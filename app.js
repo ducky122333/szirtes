@@ -6,7 +6,7 @@ const C = window.SITE_CONFIG;
 const T = {
 en: {
   "nav.location":"Location","nav.gallery":"Photos","nav.details":"Details","nav.sun":"Sunlight","nav.map":"Map","nav.contact":"Contact",
-  "hero.eyebrow":"For sale · A prestigious address on Gellért Hill · Budapest District I",
+  "hero.eyebrow":"For sale · Gellért Hill · Budapest District I",
   "hero.title":"Bright, spacious apartment nestled in a UNESCO World Heritage site",
   "hero.lead":"83 m² second-floor apartment in a gated courtyard overlooking the Citadel promenade and nature reserve",
   "hero.cta":"Arrange a viewing",
@@ -159,7 +159,7 @@ en: {
 },
 hu: {
   "nav.location":"Elhelyezkedés","nav.gallery":"Fotók","nav.details":"Részletek","nav.sun":"Napfény","nav.map":"Térkép","nav.contact":"Kapcsolat",
-  "hero.eyebrow":"Eladó · Rangos cím a Gellérthegyen · Budapest I. kerület",
+  "hero.eyebrow":"Eladó · Gellérthegy · Budapest I. kerület",
   "hero.title":"Világos, tágas lakás ősfás kertvárosi udvarban, néhány lépésre a Citadellától",
   "hero.lead":"83 m²-es, második emeleti lakás, amely a Citadella sétányra és természetvédelmi területre néz",
   "hero.cta":"Megtekintés egyeztetése",
