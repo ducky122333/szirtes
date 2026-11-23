@@ -8,7 +8,7 @@ window.SITE_CONFIG = {
   // Contact details (placeholders — replace before going live)
   CONTACT_NAME: "[Contact name]",
   CONTACT_EMAIL: "info@example.com",
-  CONTACT_PHONE: "+36 00 000 0000",
+  CONTACT_PHONE: "+36705731361",
 
   // Property
   ADDRESS: "Szirtes út 26/B, 1016 Budapest, Hungary",
