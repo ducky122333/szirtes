@@ -12,8 +12,8 @@ window.SITE_CONFIG = {
 
   // Property
   ADDRESS: "Szirtes út 26/B, 1016 Budapest, Hungary",
-  PRICE_HUF: 200000000,
-  AREA_M2: 82,
+  PRICE_HUF: 225000000,
+  AREA_M2: 83,
 
   // Map pin. With a Google key the page geocodes ADDRESS automatically.
   // If that pin is still off: right-click the building in Google Maps, copy the

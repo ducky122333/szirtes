@@ -273,3 +273,5 @@ h3{font-size:1.35rem}
 .fw-text h3{margin:0 0 .3rem;font-size:1.3rem}
 .fw-text p{margin:0;font-size:.85rem;color:var(--muted)}
 @media (max-width:560px){.fw-stack button{width:110px;margin-left:-55px}}
+
+.desc-strong{font-weight:700}
