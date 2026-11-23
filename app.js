@@ -92,6 +92,10 @@ en: {
   "near.l6":"Vuk playground, Cerka-firka playground",
   "g.living":"Living room",
   "g.bedroom2":"Second bedroom",
+  "g.viewBedroom":"View from the bedroom",
+  "g.lookout":"The Citadel Lookout, a short walk away",
+  "fw.title":"Fireworks seen from the bedroom on 20 August",
+  "fw.hint":"Click to view",
   "dur":"{h} h {m} min",
   "sun.spring":"Spring",
   "sun.autumn":"Autumn",
@@ -238,6 +242,10 @@ hu: {
   "near.l6":"Vuk játszótér, Cerka-firka játszótér",
   "g.living":"Nappali",
   "g.bedroom2":"Második hálószoba",
+  "g.viewBedroom":"Kilátás a hálószobából",
+  "g.lookout":"A Citadella Kilátó, rövid sétára",
+  "fw.title":"Tűzijáték a hálószobából augusztus 20-án",
+  "fw.hint":"Kattintson a nagyításhoz",
   "dur":"{h} óra {m} perc",
   "sun.spring":"Tavasz",
   "sun.autumn":"Ősz",
@@ -349,7 +357,7 @@ function applyLang(l) {
   if (location.protocol.startsWith("http") && /\/(en|hu)\/?$/.test(location.pathname)) {
     history.replaceState(null, "", location.pathname.replace(/(en|hu)\/?$/, "") + location.search + location.hash);
   }
-  renderPrice(); renderGallery(); renderSchools(); updateSunUI(); updateMapLang(); renderAir();
+  renderPrice(); renderGallery(); renderFireworks(); renderSchools(); updateSunUI(); updateMapLang(); renderAir();
 }
 
 /* ---------------- Price ---------------- */
@@ -373,28 +381,35 @@ const PHOTOS = [
   ["bedroom2-1", "g.bedroom2", "tall"],
   ["bedroom2-2", "g.bedroom2", ""],
   ["bedroom2-3", "g.bedroom2", ""],
+  ["view-bedroom-1", "g.viewBedroom", ""],
+  ["view-bedroom-2", "g.viewBedroom", ""],
   ["kitchen-1", "g.kitchen", ""],
   ["kitchen-2", "g.kitchen", ""],
   ["dining-1", "g.dining", ""],
   ["dining-2", "g.dining", ""],
   ["bath-tub", "g.bathTub", ""],
   ["bath-sinks", "g.bathSinks", ""],
+  ["garden-2", "g.garden", ""],
+  ["citadel-lookout-2", "g.lookout", ""],
   ["street", "g.street", "wide"]
 ];
 function renderGallery() {
   const g = document.getElementById("galleryGrid");
   g.innerHTML = "";
+  const shown = new Set(); // caption only the first photo of each kind
   PHOTOS.forEach(([f, k, cls], i) => {
     const b = document.createElement("button");
     if (cls) b.className = cls;
-    b.innerHTML = `<img src="/img/${f}-sm.webp" alt="${esc(t(k))}" loading="lazy"><span class="cap">${esc(t(k))}</span>`;
-    b.addEventListener("click", () => openLb(i));
+    const cap = shown.has(k) ? "" : `<span class="cap">${esc(t(k))}</span>`;
+    shown.add(k);
+    b.innerHTML = `<img src="/img/${f}-sm.webp" alt="${esc(t(k))}" loading="lazy">${cap}`;
+    b.addEventListener("click", () => openLb(i, PHOTOS));
     g.appendChild(b);
   });
 }
 const lb = document.getElementById("lightbox");
-let lbI = 0;
-function openLb(i) { lbI = (i + PHOTOS.length) % PHOTOS.length; const [f, k] = PHOTOS[lbI];
+let lbI = 0, lbList = PHOTOS;
+function openLb(i, list) { if (list) lbList = list; lbI = (i + lbList.length) % lbList.length; const [f, k] = lbList[lbI];
   const img = document.getElementById("lbImg"); img.src = `/img/${f}.webp`; img.alt = t(k);
   document.getElementById("lbCap").textContent = t(k); lb.hidden = false; }
 lb.querySelector(".lb-close").onclick = () => lb.hidden = true;
@@ -407,6 +422,21 @@ document.addEventListener("keydown", e => {
   if (e.key === "ArrowLeft") openLb(lbI - 1);
   if (e.key === "ArrowRight") openLb(lbI + 1);
 });
+
+/* ---------------- Fireworks (overlapping stack) ---------------- */
+const FIREWORKS = [1, 2, 3, 4, 5].map(n => ["fireworks-" + n, "fw.title", ""]);
+function renderFireworks() {
+  const el = document.getElementById("fwStack");
+  if (!el) return;
+  el.innerHTML = "";
+  FIREWORKS.forEach(([f], i) => {
+    const b = document.createElement("button");
+    b.style.setProperty("--r", [-6, 3, -2, 5, -4][i] + "deg");
+    b.innerHTML = `<img src="/img/${f}-sm.webp" alt="${esc(t("fw.title"))}" loading="lazy">`;
+    b.addEventListener("click", () => openLb(i, FIREWORKS));
+    el.appendChild(b);
+  });
+}
 
 /* ---------------- Sun maths ---------------- */
 const RAD = Math.PI / 180;
