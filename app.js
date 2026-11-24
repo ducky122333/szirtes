@@ -24,10 +24,10 @@ en: {
   "gallery.title":"Photos",
   "details.title":"About the apartment",
   "desc.p1":"We are offering for sale an apartment with exceptional qualities in a fenced residential courtyard, just a few minutes' walk from the Citadel. The property is surrounded by a large garden full of mature trees, with parking available on site.",
-  "desc.p2":"The apartment is on the 2nd floor of the building. Its south-facing terrace offers a beautiful panorama over Verejték Park and the Citadel promenade. Windows facing three directions give the home its special atmosphere: sunlight fills the rooms all day long. Set at the end of the building, the apartment is exceptionally bright and pleasant to live in.",
+  "desc.p2":"The apartment is on the 2nd floor of the building. Its south-facing terrace offers a beautiful panorama over Jubileum / Verejték Park and the Citadel promenade. Windows facing three directions give the home its special atmosphere: sunlight fills the rooms all day long. Set at the end of the building, the apartment is exceptionally bright and pleasant to live in.",
   "desc.p3":"The living room, both bedrooms and the hallway have oak parquet floors renovated a few years ago, while the dining room, kitchen and bathrooms are tiled.",
   "desc.p4":"Two bathrooms add comfort: one with a corner bathtub, WC and double sink, the other with a shower. There is also a separate WC.",
-  "desc.p5":"Heating and hot water are provided by gas heat. The apartment has its own water meter.",
+  "desc.p5":"Heating and hot water are provided by gas. The apartment has its own water meter.",
   "desc.extrasTitle":"Further advantages",
   "desc.x1":"Shared storage in the basement",
   "desc.x2":"Separate bicycle and pram storage",
@@ -177,10 +177,10 @@ hu: {
   "gallery.title":"Fotók",
   "details.title":"A lakásról",
   "desc.p1":"Eladásra kínálunk egy kivételes adottságokkal rendelkező lakást egy zárt, bekerített lakóudvarban, mindössze néhány perces sétára a Citadellától. Az ingatlant egy hatalmas, ősfákkal tarkított kert veszi körül, ahol parkolási lehetőség is biztosított.",
-  "desc.p2":"A lakás a társasház 2. emeletén található, és déli fekvésű teraszáról gyönyörű panoráma nyílik a Verejték parkra és a Citadella sétányra. Különleges hangulatát a három égtáj felé tájolt ablakok adják, amelyeknek köszönhetően a napfény egész nap beragyogja az otthont. A lakás az épülettömb szélén helyezkedik el, így rendkívül világos és kellemes életteret biztosít.",
+  "desc.p2":"A lakás a társasház 2. emeletén található, és déli fekvésű teraszáról gyönyörű panoráma nyílik a Jubileumi / Verejték parkra és a Citadella sétányra. Különleges hangulatát a három égtáj felé tájolt ablakok adják, amelyeknek köszönhetően a napfény egész nap beragyogja az otthont. A lakás az épülettömb szélén helyezkedik el, így rendkívül világos és kellemes életteret biztosít.",
   "desc.p3":"A nappaliban, a két hálószobában és az előtérben néhány éve felújított tölgyfa parketta található, míg az étkezőben, a konyhában és a fürdőszobákban járólap burkolat került kialakításra.",
   "desc.p4":"A kényelmet két fürdőszoba szolgálja: az egyik sarokkáddal, WC-vel és dupla mosdóval, a másik zuhanyzóval felszerelt, és egy különálló WC is rendelkezésre áll.",
-  "desc.p5":"A fűtést és a melegvíz-ellátást gázfűtés biztosítja. A lakás saját vízórával rendelkezik.",
+  "desc.p5":"A fűtést és a melegvizet frissen szervizelt gázcirkó biztosítja. A lakás saját vízórával rendelkezik.",
   "desc.extrasTitle":"További előnyök",
   "desc.x1":"Közös tároló a pincében",
   "desc.x2":"Külön kerékpár- és babakocsitároló",
@@ -378,7 +378,8 @@ function renderPrice() {
 /* ---------------- Gallery + lightbox ---------------- */
 const PHOTOS = [
   ["balcony-sunset", "g.balconySunset", "wide"],
-  ["bedroom", "g.bedroom", "tall"],
+  ["bedroom-a", "g.bedroom", "tall"],
+  ["bedroom-b", "g.bedroom", ""],
   ["garden", "g.garden", "tall"],
   ["balcony-day", "g.balconyDay", "wide"],
   ["living-1", "g.living", "tall"],
@@ -1010,13 +1011,6 @@ document.getElementById("citadellaWalk").href =
 function initContact() {
   document.getElementById("cName").textContent = C.CONTACT_NAME;
   const ph = document.getElementById("cPhone"); ph.textContent = C.CONTACT_PHONE; ph.href = "tel:" + C.CONTACT_PHONE.replace(/\s+/g, "");
-  const em = document.getElementById("cEmail"); em.textContent = C.CONTACT_EMAIL; em.href = "mailto:" + C.CONTACT_EMAIL;
-  document.getElementById("contactForm").addEventListener("submit", e => {
-    e.preventDefault();
-    const f = new FormData(e.target);
-    const body = `${f.get("message") || ""}\n\n${f.get("name")}\n${f.get("email")}\n${f.get("phone") || ""}`;
-    location.href = `mailto:${C.CONTACT_EMAIL}?subject=${encodeURIComponent(t("form.subject"))}&body=${encodeURIComponent(body)}`;
-  });
 }
 
 /* ---------------- Boot ---------------- */
