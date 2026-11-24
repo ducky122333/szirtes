@@ -399,7 +399,7 @@ const PHOTOS = [
   ["bath-tub", "g.bathTub", ""],
   ["bath-sinks", "g.bathSinks", ""],
   ["garden-2", "g.garden", ""],
-  ["street", "g.street", "wide"]
+  ["street", "g.street", "big"]
 ];
 function renderGallery() {
   const g = document.getElementById("galleryGrid");
@@ -410,7 +410,9 @@ function renderGallery() {
     if (cls) b.className = cls;
     const cap = shown.has(k) ? "" : `<span class="cap">${esc(t(k))}</span>`;
     shown.add(k);
-    b.innerHTML = `<img src="/img/${f}-sm.webp" alt="${esc(t(k))}" loading="lazy">${cap}`;
+    // larger tiles get the full-size file so they stay sharp
+    const src = cls ? `/img/${f}.webp` : `/img/${f}-sm.webp`;
+    b.innerHTML = `<img src="${src}" alt="${esc(t(k))}" loading="lazy">${cap}`;
     b.addEventListener("click", () => openLb(i, PHOTOS));
     g.appendChild(b);
   });

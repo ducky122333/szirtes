@@ -278,3 +278,7 @@ h3{font-size:1.35rem}
 
 .contact-direct{font-size:1.1rem}
 .c-inline{display:inline!important;margin:0!important}
+
+.gallery .big{grid-column:span 2;grid-row:span 2}
+.gallery .big img{object-position:50% 45%}
+@media (max-width:900px){.gallery .big{grid-row:span 3}}
