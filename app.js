@@ -36,7 +36,7 @@ en: {
   "spec.title":"Key facts","spec.price":"Price","spec.area":"Floor area","spec.rooms":"Rooms","spec.roomsVal":"2 bedrooms, living room, dining room, kitchen, hallway",
   "spec.baths":"Bathrooms","spec.bathsVal":"2.5 (corner bath / shower + separate WC)",
   "spec.floor":"Floor","spec.floorVal":"2nd floor, corner of the building",
-  "spec.terrace":"Terrace","spec.terraceVal":"South-facing, park and Citadel view",
+  "spec.terrace":"Terrace","spec.terraceVal":"South-facing, nature reserve",
   "spec.light":"Light","spec.lightVal":"Windows facing three directions",
   "spec.floors":"Flooring","spec.floorsVal":"Renovated oak parquet; tiles in kitchen, dining room and bathrooms",
   "spec.heating":"Heating","spec.heatingVal":"Gas heating",
@@ -99,6 +99,7 @@ en: {
   "desc.xEv":"Electric vehicle (EV) charging across the street",
   "spec.ev":"EV charging",
   "spec.evVal":"Across the street",
+  "contact.label":"Contact:",
   "dur":"{h} h {m} min",
   "sun.spring":"Spring",
   "sun.autumn":"Autumn",
@@ -189,7 +190,7 @@ hu: {
   "spec.title":"Főbb adatok","spec.price":"Vételár","spec.area":"Alapterület","spec.rooms":"Helyiségek","spec.roomsVal":"2 hálószoba, nappali, étkező, konyha, előszoba",
   "spec.baths":"Fürdőszobák","spec.bathsVal":"2 (sarokkád / zuhanyzó) + külön WC",
   "spec.floor":"Emelet","spec.floorVal":"2. emelet, az épület szélén",
-  "spec.terrace":"Terasz","spec.terraceVal":"Déli fekvésű, kilátás a parkra és a Citadellára",
+  "spec.terrace":"Terasz","spec.terraceVal":"Déli fekvésű, természetvédelmi terület",
   "spec.light":"Fényviszonyok","spec.lightVal":"Három égtáj felé néző ablakok",
   "spec.floors":"Burkolat","spec.floorsVal":"Felújított tölgyparketta; járólap a konyhában, étkezőben és fürdőkben",
   "spec.heating":"Fűtés","spec.heatingVal":"Gázfűtés",
@@ -252,6 +253,7 @@ hu: {
   "desc.xEv":"Elektromos autótöltő az utca túloldalán",
   "spec.ev":"Elektromos töltés",
   "spec.evVal":"Az utca túloldalán",
+  "contact.label":"Kapcsolat:",
   "dur":"{h} óra {m} perc",
   "sun.spring":"Tavasz",
   "sun.autumn":"Ősz",
@@ -1009,7 +1011,6 @@ document.getElementById("citadellaWalk").href =
 
 /* ---------------- Contact ---------------- */
 function initContact() {
-  document.getElementById("cName").textContent = C.CONTACT_NAME;
   const ph = document.getElementById("cPhone"); ph.textContent = C.CONTACT_PHONE; ph.href = "tel:" + C.CONTACT_PHONE.replace(/\s+/g, "");
 }
 

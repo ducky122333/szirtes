@@ -275,3 +275,6 @@ h3{font-size:1.35rem}
 @media (max-width:560px){.fw-stack button{width:110px;margin-left:-55px}}
 
 .desc-strong{font-weight:700}
+
+.contact-direct{font-size:1.1rem}
+.c-inline{display:inline!important;margin:0!important}
