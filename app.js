@@ -378,41 +378,40 @@ function renderPrice() {
 }
 
 /* ---------------- Gallery + lightbox ---------------- */
-const PHOTOS = [
-  ["balcony-sunset", "g.balconySunset", "wide"],
-  ["bedroom-a", "g.bedroom", "tall"],
-  ["bedroom-b", "g.bedroom", ""],
-  ["garden", "g.garden", "tall"],
-  ["balcony-day", "g.balconyDay", "wide"],
-  ["living-1", "g.living", "tall"],
-  ["living-2", "g.living", ""],
-  ["living-3", "g.living", ""],
-  ["bedroom2-1", "g.bedroom2", "tall"],
-  ["bedroom2-2", "g.bedroom2", ""],
-  ["bedroom2-3", "g.bedroom2", ""],
-  ["view-bedroom-1", "g.viewBedroom", ""],
-  ["view-bedroom-2", "g.viewBedroom", ""],
-  ["kitchen-1", "g.kitchen", ""],
-  ["kitchen-2", "g.kitchen", ""],
-  ["dining-1", "g.dining", ""],
-  ["dining-2", "g.dining", ""],
-  ["bath-tub", "g.bathTub", ""],
-  ["bath-sinks", "g.bathSinks", ""],
-  ["garden-2", "g.garden", ""],
-  ["street", "g.street", "big"]
+const PHOTOS = [ // [file, caption key, aspect ratio (w/h)]
+  ["balcony-sunset", "g.balconySunset", 1.333],
+  ["living-1", "g.living", 0.75],
+  ["hero-frontage", "g.street", 0.75],
+  ["balcony-day", "g.balconyDay", 1.333],
+  ["bedroom-a", "g.bedroom", 0.75],
+  ["bedroom-b", "g.bedroom", 0.75],
+  ["bedroom2-1", "g.bedroom2", 0.75],
+  ["bedroom2-2", "g.bedroom2", 0.75],
+  ["bedroom2-3", "g.bedroom2", 0.75],
+  ["view-bedroom-2", "g.viewBedroom", 0.75],
+  ["view-bedroom-1", "g.viewBedroom", 0.75],
+  ["living-3", "g.living", 0.75],
+  ["living-2", "g.living", 0.75],
+  ["dining-1", "g.dining", 0.75],
+  ["kitchen-1", "g.kitchen", 0.75],
+  ["kitchen-2", "g.kitchen", 0.75],
+  ["dining-2", "g.dining", 0.75],
+  ["bath-sinks", "g.bathSinks", 0.75],
+  ["bath-tub", "g.bathTub", 0.75],
+  ["garden", "g.garden", 0.75],
+  ["garden-2", "g.garden", 0.75],
+  ["street", "g.street", 0.75]
 ];
 function renderGallery() {
   const g = document.getElementById("galleryGrid");
   g.innerHTML = "";
   const shown = new Set(); // caption only the first photo of each kind
-  PHOTOS.forEach(([f, k, cls], i) => {
+  PHOTOS.forEach(([f, k, ar], i) => {
     const b = document.createElement("button");
-    if (cls) b.className = cls;
+    b.style.setProperty("--ar", ar);
     const cap = shown.has(k) ? "" : `<span class="cap">${esc(t(k))}</span>`;
     shown.add(k);
-    // larger tiles get the full-size file so they stay sharp
-    const src = cls ? `/img/${f}.webp` : `/img/${f}-sm.webp`;
-    b.innerHTML = `<img src="${src}" alt="${esc(t(k))}" loading="lazy">${cap}`;
+    b.innerHTML = `<img src="/img/${f}-sm.webp" srcset="/img/${f}-sm.webp 700w, /img/${f}.webp 1800w" sizes="(max-width: 700px) 60vw, 34vw" alt="${esc(t(k))}" loading="lazy">${cap}`;
     b.addEventListener("click", () => openLb(i, PHOTOS));
     g.appendChild(b);
   });
