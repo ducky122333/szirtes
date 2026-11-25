@@ -147,7 +147,7 @@
     <p data-i18n="sun.p2"></p>
   </div>
   <div class="sun-panel">
-    <div class="sun-map" id="sun3d">
+    <div class="sun-map" id="sun3d" data-lenis-prevent>
       <div id="sun3dMap"></div>
       <div class="sun-loading" id="sunLoading" data-i18n="sun3d.loading"></div>
       <div class="sun3d-night" id="sun3dNight" hidden data-i18n="sun.below"></div>
@@ -179,20 +179,22 @@
     <p class="eyebrow light" data-i18n="cit.eyebrow"></p>
     <h2 data-i18n="cit.title"></h2>
     <p class="cit-walk"><span class="cit-badge">&lt;5 min</span><span data-i18n="cit.walk"></span></p>
-    <figure class="cit-map">
-      <img src="/img/walk-map.webp" srcset="/img/walk-map-sm.webp 900w, /img/walk-map.webp 2400w" sizes="(max-width: 900px) 100vw, 1300px" alt="" data-i18n-alt="cit.mapCap" loading="lazy">
-      <figcaption data-i18n="cit.mapCap"></figcaption>
-    </figure>
-    <div class="cit-grid">
-      <div class="cit-text">
-        <h3 data-i18n="cit.p1t"></h3><p data-i18n="cit.p1"></p>
-        <h3 data-i18n="cit.p2t"></h3><p data-i18n="cit.p2"></p>
-        <h3 data-i18n="cit.p3t"></h3><p data-i18n="cit.p3"></p>
+    <div class="cit-scroll">
+      <div class="cit-pin">
+        <figure class="cit-map">
+          <img src="/img/walk-map.webp" srcset="/img/walk-map-sm.webp 900w, /img/walk-map.webp 2400w" sizes="(max-width: 900px) 100vw, 760px" alt="" data-i18n-alt="cit.mapCap" loading="lazy">
+          <figcaption data-i18n="cit.mapCap"></figcaption>
+        </figure>
       </div>
-      <figure class="cit-photo">
-        <img src="/img/citadella-park-1.webp" srcset="/img/citadella-park-1-sm.webp 800w, /img/citadella-park-1.webp 1800w" sizes="(max-width: 900px) 100vw, 640px" alt="" data-i18n-alt="g.citPark1" loading="lazy">
-        <figcaption data-i18n="g.citPark1"></figcaption>
-      </figure>
+      <div class="cit-side">
+        <div class="cit-block"><h3 data-i18n="cit.p1t"></h3><p data-i18n="cit.p1"></p></div>
+        <div class="cit-block"><h3 data-i18n="cit.p2t"></h3><p data-i18n="cit.p2"></p></div>
+        <div class="cit-block"><h3 data-i18n="cit.p3t"></h3><p data-i18n="cit.p3"></p></div>
+        <figure class="cit-photo">
+          <img src="/img/citadella-park-1.webp" srcset="/img/citadella-park-1-sm.webp 800w, /img/citadella-park-1.webp 1800w" sizes="(max-width: 900px) 100vw, 520px" alt="" data-i18n-alt="g.citPark1" loading="lazy">
+          <figcaption data-i18n="g.citPark1"></figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </section>
@@ -209,7 +211,7 @@
 <!-- MAP + NEARBY -->
 <section id="map" class="section">
   <h2 data-i18n="map.title"></h2>
-  <div class="map-wrap"><div id="mapCanvas"></div></div>
+  <div class="map-wrap" data-lenis-prevent><div id="mapCanvas"></div></div>
   <div class="map-below">
     <p class="map-links"><a id="gmapsLink" target="_blank" rel="noopener" data-i18n="map.open"></a> · <a id="citadellaWalk" target="_blank" rel="noopener" data-i18n="map.walk"></a></p>
     <button class="sv-thumb" id="svThumb" type="button" hidden>
@@ -292,7 +294,7 @@
   <p class="credit"><em>Designed by Lil G Web Designs</em> <span class="heart">💗</span> <a href="https://www.lilgweb.com" target="_blank" rel="noopener">www.lilgweb.com</a> <span class="heart">💗</span></p>
 </footer>
 
-<div class="lightbox" id="lightbox" hidden>
+<div class="lightbox" id="lightbox" hidden data-lenis-prevent>
   <button class="lb-close" aria-label="Close">×</button>
   <button class="lb-prev" aria-label="Previous">‹</button>
   <img id="lbImg" alt="">
@@ -302,5 +304,9 @@
 
 <script src="https://unpkg.com/suncalc@1.9.0/suncalc.js"></script>
 <script src="/app.js"></script>
+<script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="/motion.js"></script>
 </body>
 </html>

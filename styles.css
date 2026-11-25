@@ -294,3 +294,21 @@ h3{font-size:1.35rem}
 .credit a{color:#c2185b;text-decoration:none;font-style:italic;border-bottom:1px solid rgba(194,24,91,.3)}
 .credit a:hover{border-color:#c2185b}
 .credit .heart{font-style:normal;font-size:.9em}
+
+/* ---- motion experiment ---- */
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
+.px-frame{overflow:hidden;border-radius:22px;box-shadow:0 30px 60px -30px rgba(30,38,34,.45)}
+.aerial .px-frame{border-radius:18px;box-shadow:none}
+.px-frame img{will-change:transform;box-shadow:none!important;border-radius:0!important}
+.cit-scroll{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(2rem,4vw,3.5rem);align-items:start}
+.cit-pin{position:sticky;top:96px}
+.cit-pin .cit-map{margin:0}
+.cit-side{display:flex;flex-direction:column;gap:clamp(3rem,12vh,7rem);padding:4vh 0 6vh}
+.cit-block{border-left:2px solid rgba(255,255,255,.15);padding-left:1.4rem;transition:border-color .5s,opacity .5s;opacity:.55}
+.cit-block.is-active{border-color:var(--sun);opacity:1}
+.cit-block h3{color:#fff;margin:0 0 .5rem}
+.cit-block p{color:#cfd8d2;margin:0}
+.cit-side .cit-photo img{border-radius:16px;width:100%}
+@media (max-width:980px){.cit-scroll{grid-template-columns:1fr}.cit-pin{position:static}.cit-side{gap:2rem;padding:1rem 0 0}.cit-block{opacity:1}}
